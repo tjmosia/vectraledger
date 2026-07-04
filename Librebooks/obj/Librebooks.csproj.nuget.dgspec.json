@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TJmos\\source\\repos\\Librebooks\\Librebooks\\Librebooks.csproj": {}
+    "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Librebooks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TJmos\\source\\repos\\Librebooks\\Librebooks\\Librebooks.csproj": {
+    "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Librebooks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\Librebooks\\Librebooks.csproj",
+        "projectUniqueName": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Librebooks.csproj",
         "projectName": "Librebooks",
-        "projectPath": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\Librebooks\\Librebooks.csproj",
+        "projectPath": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Librebooks.csproj",
         "packagesPath": "C:\\Users\\TJmos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\Librebooks\\obj\\",
+        "outputPath": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

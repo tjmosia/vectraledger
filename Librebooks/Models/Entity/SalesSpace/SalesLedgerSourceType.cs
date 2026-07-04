@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 namespace Librebooks.Models.Entity.SalesSpace;
 
 [Table(nameof(SalesLedgerSourceType))]
-[Index(nameof(SalesLedgerSourceType), IsUnique = true)]
 public class SalesLedgerSourceType(): VersionedEntityBase()
 {
     [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -17,17 +16,17 @@ public class SalesLedgerSourceType(): VersionedEntityBase()
     [Required, MaxLength(155)]
     public virtual string? Name { get; set; }
 
-    [Required, MaxLength(5)]
-    public virtual string? Code { get; set;  }
+    [Required, MaxLength(1)]
+    public virtual string? TransactionType { get; set;  }
 
     public static void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<SalesLedger>(entity =>
+        modelBuilder.Entity<SalesLedgerSourceType>(entity =>
         {
             entity.HasIndex(p => new { p.Id })
                 .IsClustered();
 
-
+            entity.HasIndex(p => p.Name).IsUnique();
         });
     }
 }

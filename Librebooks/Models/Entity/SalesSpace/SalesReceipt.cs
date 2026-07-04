@@ -17,7 +17,7 @@ public class SalesReceipt () : VersionedEntityBase()
 {
 	[Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 	public virtual int Id { get; set; }
-	public virtual DateOnly Date { get; set; }
+	public virtual DateTime Date { get; set; }
 	public virtual string? Number { get; set; }
 	public virtual string? Reference { get; set; }
 	public virtual decimal Amount { get; set; }
@@ -27,8 +27,6 @@ public class SalesReceipt () : VersionedEntityBase()
 	public virtual int TaxId { get; set; }
 	public virtual string? Description { get; set; }
 	public virtual string? Comment { get; set; }
-
-	public virtual bool Archived { get; set; }
 	public virtual bool Reconciled { get; set; }
 	public virtual bool Posted { get; set; }
 	public virtual int BankAccountId { get; set; }
@@ -45,9 +43,11 @@ public class SalesReceipt () : VersionedEntityBase()
 		builder.Entity<SalesReceipt>(options =>
 		  {
 			  options.Property(p => p.Amount).HasColumnType(ColumnTypes.MONETARY);
+			  options.Property(p => p.TotalAmount).HasColumnType(ColumnTypes.MONETARY);
 			  options.Property(p => p.TaxAmount).HasColumnType(ColumnTypes.MONETARY);
 			  options.Property(p => p.TaxRate).HasColumnType(ColumnTypes.PERCENTAGE);
 			  options.Property(p => p.Description).HasMaxLength(255);
+			  options.Property(p => p.Number).HasMaxLength(50);
 			  options.Property(p => p.Comment).HasMaxLength(255);
 			  options.Property(p => p.Reference).IsRequired().HasMaxLength(75);
 

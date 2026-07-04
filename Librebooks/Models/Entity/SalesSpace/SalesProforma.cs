@@ -10,7 +10,6 @@ public class SalesProforma
 {
 	[Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
 	public virtual int Id { get; set; }
-	public virtual int DueDate { get; set; }
 
 	public static void OnModelCreating (ModelBuilder modelBuilder)
 	{

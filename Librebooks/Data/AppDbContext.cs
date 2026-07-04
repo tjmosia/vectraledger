@@ -210,7 +210,6 @@ public class AppDbContext :
 		CompanySalesRep.OnModelCreating(builder);
 		SalesReceipt.OnModelCreating(builder);
 		SalesLedger.OnModelCreating(builder);
-		SalesLedgerJournal.OnModelCreating(builder);
 		SalesInvoice.OnModelCreating(builder);
 		SalesProforma.OnModelCreating(builder);
 		SalesQuote.OnModelCreating(builder);
@@ -250,7 +249,6 @@ public class AppDbContext :
 		CustomerContact.BuildModel(builder);
 		CustomerNote.OnModelCreating(builder);
 		CustomerSetup.OnModelCreating(builder);
-		CustomerWriteOff.OnModelCreating(builder);
 
 		/************************************************************************************************
              * Accounting Space

@@ -17,6 +17,7 @@ public class SalesQuoteOrder
 	{
 		builder.Entity<SalesQuoteOrder>(options =>
 		{
+			options.HasKey( p=> new {p.QuoteId, p.OrderId}).IsClustered();
 		});
 	}
 }

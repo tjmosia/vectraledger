@@ -25,7 +25,6 @@ public class SalesLedger
 	public SalesDocument? Document { get; set; }
 	public Customer? Customer { get; set; }
 	public Company? Company { get; set; }
-	public SalesLedgerJournal? Journal { get; set; }
 	public SalesLedgerSourceType? SourceType { get; set; }
 
 	public static void OnModelCreating (ModelBuilder modelBuilder)

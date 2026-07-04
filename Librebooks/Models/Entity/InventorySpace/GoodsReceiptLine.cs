@@ -1,19 +1,18 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Librebooks.Models.Entity.InventorySpace;
 
-[Table(nameof(GoodsIssueItem))]
-public class GoodsIssueItem
+[Table(nameof(GoodsReceiptLine))]
+public class GoodsReceiptLine
 {
-    [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public virtual int Id { get; set; }
-    public virtual int IssueId { get; set;  }
+    public virtual int ReceiptId { get; set; }
+
 
     public static void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<GoodsIssueItem>( entity =>
+        modelBuilder.Entity<GoodsReceiptLine>(entity =>
         {
 
         });
