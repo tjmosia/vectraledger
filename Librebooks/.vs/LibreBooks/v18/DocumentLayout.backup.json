@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\goodsissue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\goodsissueitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\goodsissueitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\goodsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\goodsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\goodsreceiptline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\goodsreceiptline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\accountingspace\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\accountingspace\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -119,14 +131,6 @@
       "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\salesspace\\salesdocumentcustomerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\goodsissueitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\goodsissueitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\goodsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\goodsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\core\\constants\\salesdocumenttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:core\\constants\\salesdocumenttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -230,7 +234,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 31,
+          "SelectedChildIndex": 32,
           "Children": [
             {
               "$type": "Bookmark",
@@ -246,7 +250,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "GoodsReceiptLine.cs",
+              "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsReceiptLine.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\GoodsReceiptLine.cs",
+              "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsReceiptLine.cs",
+              "RelativeToolTip": "Models\\Entity\\InventorySpace\\GoodsReceiptLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T19:26:49.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SupplierAdjustment.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SupplierSpace\\SupplierAdjustment.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SupplierSpace\\SupplierAdjustment.cs",
@@ -259,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "LedgerAccountCategory.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\AccountingSpace\\LedgerAccountCategory.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\AccountingSpace\\LedgerAccountCategory.cs",
@@ -272,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "BusinessSector.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SystemSpace\\BusinessSector.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SystemSpace\\BusinessSector.cs",
@@ -285,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Country.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SystemSpace\\Country.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SystemSpace\\Country.cs",
@@ -298,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -311,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "CompanyImage.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\CompanySpace\\CompanyImage.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\CompanySpace\\CompanyImage.cs",
@@ -324,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "CompanyBankAccount.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\CompanySpace\\CompanyBankAccount.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\CompanySpace\\CompanyBankAccount.cs",
@@ -336,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "PostingRule.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\AccountingSpace\\PostingRule.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\AccountingSpace\\PostingRule.cs",
@@ -349,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CustomerAdjustment.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\CustomerSpace\\CustomerAdjustment.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\CustomerSpace\\CustomerAdjustment.cs",
@@ -362,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "SalesReceipt.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesReceipt.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesReceipt.cs",
@@ -375,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "SalesOrder.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesOrder.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesOrder.cs",
@@ -388,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "SalesQuoteInvoice.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesQuoteInvoice.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesQuoteInvoice.cs",
@@ -401,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "SalesOrderInvoice.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesOrderInvoice.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesOrderInvoice.cs",
@@ -413,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "SalesDocumentLine.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesDocumentLine.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesDocumentLine.cs",
@@ -425,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "SalesLine.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesLine.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesLine.cs",
@@ -437,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "SalesInvoiceWriteoff.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesInvoiceWriteoff.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesInvoiceWriteoff.cs",
@@ -449,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "SalesDocument.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesDocument.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesDocument.cs",
@@ -462,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "SalesQuote.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesQuote.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesQuote.cs",
@@ -475,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "SalesCredit.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesCredit.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesCredit.cs",
@@ -487,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "SalesInvoiceReceipt.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesInvoiceReceipt.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesInvoiceReceipt.cs",
@@ -499,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "SalesInvoiceCredit.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesInvoiceCredit.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesInvoiceCredit.cs",
@@ -511,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "SalesDocumentCustomerInfo.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesDocumentCustomerInfo.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesDocumentCustomerInfo.cs",
@@ -523,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "SalesLedger.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesLedger.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesLedger.cs",
@@ -536,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "SalesLedgerSourceType.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesLedgerSourceType.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesLedgerSourceType.cs",
@@ -549,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "SalesInvoice.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesInvoice.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesInvoice.cs",
@@ -561,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "SalesProforma.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesProforma.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesProforma.cs",
@@ -574,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "SalesQuoteOrder.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SalesSpace\\SalesQuoteOrder.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesQuoteOrder.cs",
@@ -587,15 +604,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 1,
               "Title": "GoodsIssueItem.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsIssueItem.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\GoodsIssueItem.cs",
               "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsIssueItem.cs",
               "RelativeToolTip": "Models\\Entity\\InventorySpace\\GoodsIssueItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T15:58:46.46Z"
+              "WhenOpened": "2026-06-30T15:58:46.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -605,26 +623,27 @@
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\GoodsIssue.cs",
               "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsIssue.cs",
               "RelativeToolTip": "Models\\Entity\\InventorySpace\\GoodsIssue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-30T15:50:26.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 2,
               "Title": "GoodsReceipt.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsReceipt.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\GoodsReceipt.cs",
               "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsReceipt.cs",
               "RelativeToolTip": "Models\\Entity\\InventorySpace\\GoodsReceipt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T15:50:20.354Z"
+              "WhenOpened": "2026-06-30T15:50:20.354Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "SalesDocumentTypes.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Core\\Constants\\SalesDocumentTypes.cs",
               "RelativeDocumentMoniker": "Core\\Constants\\SalesDocumentTypes.cs",
@@ -636,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "PurchaseCreditInvoice.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\PurchasesSpace\\PurchaseCreditInvoice.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\PurchasesSpace\\PurchaseCreditInvoice.cs",
@@ -648,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "ItemDetail.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\ItemDetail.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\ItemDetail.cs",
@@ -660,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ItemCategory.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\ItemCategory.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\ItemCategory.cs",
@@ -672,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "PurchaseDocument.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\PurchasesSpace\\PurchaseDocument.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\PurchasesSpace\\PurchaseDocument.cs",
@@ -684,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "CompanySalesRep.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\CompanySpace\\CompanySalesRep.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\CompanySpace\\CompanySalesRep.cs",
@@ -696,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Supplier.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\SupplierSpace\\Supplier.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\SupplierSpace\\Supplier.cs",
@@ -708,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "CompanyBuyer.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\CompanySpace\\CompanyBuyer.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\CompanySpace\\CompanyBuyer.cs",
@@ -720,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ItemPriceHistory.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\ItemPriceHistory.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\ItemPriceHistory.cs",
@@ -732,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\CustomerSpace\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\CustomerSpace\\Customer.cs",
@@ -744,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\Inventory.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\Inventory.cs",
@@ -756,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\Item.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\Item.cs",
@@ -768,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Address.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\GeneralSpace\\Address.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\GeneralSpace\\Address.cs",
@@ -780,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "CustomerContact.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\CustomerSpace\\CustomerContact.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\CustomerSpace\\CustomerContact.cs",
@@ -792,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "PurchaseLedger.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\PurchasesSpace\\PurchaseLedger.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\PurchasesSpace\\PurchaseLedger.cs",
@@ -804,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "PurchaseLine.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\PurchasesSpace\\PurchaseLine.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\PurchasesSpace\\PurchaseLine.cs",
@@ -816,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "Warehouse.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\Warehouse.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\Warehouse.cs",
@@ -828,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "WarehouseRow.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\WarehouseRow.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\WarehouseRow.cs",
@@ -840,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "WarehouseBin.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\WarehouseBin.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\WarehouseBin.cs",
@@ -852,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "WarehouseZone.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\WarehouseZone.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\WarehouseZone.cs",
@@ -864,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "WarehouseBay.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\WarehouseBay.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\WarehouseBay.cs",
@@ -876,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "LedgerAccount.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\AccountingSpace\\LedgerAccount.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\AccountingSpace\\LedgerAccount.cs",
@@ -888,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "JournalSourceTypes.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Core\\Constants\\JournalSourceTypes.cs",
               "RelativeDocumentMoniker": "Core\\Constants\\JournalSourceTypes.cs",
@@ -900,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Journal.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\AccountingSpace\\Journal.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\AccountingSpace\\Journal.cs",
@@ -913,7 +932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "JournalLine.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\AccountingSpace\\JournalLine.cs",
               "RelativeDocumentMoniker": "Models\\Entity\\AccountingSpace\\JournalLine.cs",
