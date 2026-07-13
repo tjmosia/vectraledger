@@ -15,8 +15,12 @@ public class GoodsIssue(): VersionedEntityBase()
 	public virtual string? Number { get; set; }
     public virtual string? Reference { get; set; }
     public virtual string? Description { get; set;  }
-	public virtual int CompanyId { get; set; }
-	public virtual bool Recorded { get; set;  }
+	public virtual int? SourceId { get; set; }
+	public virtual string? SourceType { get; set; }
+    public virtual int CompanyId { get; set; }
+	public virtual bool Recorded { get; set; } = false;
+	public virtual int WarehouseId { get; set; }
+	public virtual int 
 
     public ICollection<GoodsIssueItem>? Items { get; set; }
 

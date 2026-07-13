@@ -21,7 +21,7 @@ public class WarehouseShelve() : VersionedEntityBase()
     public virtual int ColumnId { get; set; }
     public virtual int CompanyId { get; set; }
 
-    public WarehouseBay? Column { get; set; }
+    public WarehouseColumn? Column { get; set; }
     public ICollection<WarehouseBin>? Bins { get; set; }
 
     public static void OnModelCreating(ModelBuilder modelBuilder)

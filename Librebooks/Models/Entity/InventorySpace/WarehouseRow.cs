@@ -17,7 +17,7 @@ public class WarehouseRow () : VersionedEntityBase()
 	public virtual int CompanyId { get; set; }
 
 	public virtual WarehouseZone? Zone { get; set; }
-	public ICollection<WarehouseBay>? Bays { get; set; }
+	public ICollection<WarehouseColumn>? Bays { get; set; }
 
 	public static void OnModelCreating (ModelBuilder modelBuilder)
 	{

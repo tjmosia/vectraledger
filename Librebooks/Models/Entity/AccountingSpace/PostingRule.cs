@@ -27,6 +27,7 @@ public class PostingRule
 			entity.HasIndex(p => new { p.Reason, p.DebitAccountId, p.CreditAccountId }).IsUnique();
 			entity.Property(p => p.Reason).HasMaxLength(155);
 			entity.Property(p => p.Group).HasMaxLength(155);
+
 			entity.HasOne<Company>()
 				.WithMany()
 				.HasForeignKey(p => p.CompanyId)

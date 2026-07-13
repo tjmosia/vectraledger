@@ -17,6 +17,7 @@ public class GoodsIssueItem
     public virtual string? Description { get; set;  }
     public virtual decimal Quantity { get; set;  }
     public virtual int WarehouseId { get; set; }
+    public virtual int? SourceLineId { get; set; }
 
     public static void OnModelCreating(ModelBuilder modelBuilder)
     {

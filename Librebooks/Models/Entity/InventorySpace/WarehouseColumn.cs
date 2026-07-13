@@ -8,8 +8,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Librebooks.Models.Entity.InventorySpace;
 
-[Table(nameof(WarehouseBay))]
-public class WarehouseBay () : VersionedEntityBase()
+[Table(nameof(WarehouseColumn))]
+public class WarehouseColumn () : VersionedEntityBase()
 {
 	[Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 	public virtual int Id { get; set; }
@@ -28,7 +28,7 @@ public class WarehouseBay () : VersionedEntityBase()
 
 	public static void OnModelCreating (ModelBuilder modelBuilder)
 	{
-		modelBuilder.Entity<WarehouseBay>(entity =>
+		modelBuilder.Entity<WarehouseColumn>(entity =>
 		{
 			entity.HasIndex(p => new { p.CompanyId, p.RowId, p.Id })
 				.IsClustered()
@@ -42,7 +42,7 @@ public class WarehouseBay () : VersionedEntityBase()
 
 			entity.HasOne<Company>()
 				.WithOne()
-				.HasForeignKey<WarehouseBay>(p => p.CompanyId)
+				.HasForeignKey<WarehouseColumn>(p => p.CompanyId)
 					.IsRequired()
 				.OnDelete(DeleteBehavior.Restrict);
 		});

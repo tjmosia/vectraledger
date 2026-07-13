@@ -26,7 +26,7 @@ public class Inventory () : VersionedEntityBase()
 	public InventoryAdjustment? Adjustments { get; set; }
 	public WarehouseBin? Bin { get; set; }
 	public WarehouseShelve? Shelve { get; set; }
-	public WarehouseBay? Bay { get; set; }
+	public WarehouseColumn? Bay { get; set; }
 
 	public static void OnModelCreating (ModelBuilder builder)
 	{

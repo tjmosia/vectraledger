@@ -258,8 +258,7 @@
               "RelativeToolTip": "Models\\Entity\\InventorySpace\\GoodsReceiptLine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T19:26:49.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T19:26:49.628Z"
             },
             {
               "$type": "Document",
@@ -271,8 +270,7 @@
               "RelativeToolTip": "Models\\Entity\\SupplierSpace\\SupplierAdjustment.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T19:10:52.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T19:10:52.606Z"
             },
             {
               "$type": "Document",
@@ -284,8 +282,7 @@
               "RelativeToolTip": "Models\\Entity\\AccountingSpace\\LedgerAccountCategory.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T19:09:06.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T19:09:06.78Z"
             },
             {
               "$type": "Document",
@@ -297,8 +294,7 @@
               "RelativeToolTip": "Models\\Entity\\SystemSpace\\BusinessSector.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T18:55:35.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T18:55:35.289Z"
             },
             {
               "$type": "Document",
@@ -310,8 +306,7 @@
               "RelativeToolTip": "Models\\Entity\\SystemSpace\\Country.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T18:55:21.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T18:55:21.338Z"
             },
             {
               "$type": "Document",
@@ -323,8 +318,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAANUAAAAAAAAAAAAAAPQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T18:54:06.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T18:54:06.746Z"
             },
             {
               "$type": "Document",
@@ -336,8 +330,7 @@
               "RelativeToolTip": "Models\\Entity\\CompanySpace\\CompanyImage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T20:23:59.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T20:23:59.57Z"
             },
             {
               "$type": "Document",
@@ -361,8 +354,7 @@
               "RelativeToolTip": "Models\\Entity\\AccountingSpace\\PostingRule.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T20:14:53.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T20:14:53.898Z"
             },
             {
               "$type": "Document",
@@ -374,8 +366,7 @@
               "RelativeToolTip": "Models\\Entity\\CustomerSpace\\CustomerAdjustment.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAAAEQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T19:58:15.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T19:58:15.682Z"
             },
             {
               "$type": "Document",
@@ -387,8 +378,7 @@
               "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesReceipt.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T19:44:56.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T19:44:56.96Z"
             },
             {
               "$type": "Document",
@@ -400,8 +390,7 @@
               "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesOrder.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T19:42:48.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T19:42:48.254Z"
             },
             {
               "$type": "Document",
@@ -413,8 +402,7 @@
               "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesQuoteInvoice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T19:40:19.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T19:40:19.544Z"
             },
             {
               "$type": "Document",
@@ -474,8 +462,7 @@
               "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesDocument.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T18:40:30.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T18:40:30.444Z"
             },
             {
               "$type": "Document",
@@ -487,8 +474,7 @@
               "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesQuote.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T18:38:52.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T18:38:52.266Z"
             },
             {
               "$type": "Document",
@@ -548,8 +534,7 @@
               "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesLedger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T18:39:24.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T18:39:24.46Z"
             },
             {
               "$type": "Document",
@@ -561,8 +546,7 @@
               "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesLedgerSourceType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T18:39:13.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T18:39:13.942Z"
             },
             {
               "$type": "Document",
@@ -586,8 +570,7 @@
               "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesProforma.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T18:38:53.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T18:38:53.181Z"
             },
             {
               "$type": "Document",
@@ -599,8 +582,7 @@
               "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesQuoteOrder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T18:38:46.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T18:38:46.361Z"
             },
             {
               "$type": "Document",
@@ -612,8 +594,7 @@
               "RelativeToolTip": "Models\\Entity\\InventorySpace\\GoodsIssueItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T15:58:46.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T15:58:46.46Z"
             },
             {
               "$type": "Document",
@@ -623,7 +604,7 @@
               "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\GoodsIssue.cs",
               "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsIssue.cs",
               "RelativeToolTip": "Models\\Entity\\InventorySpace\\GoodsIssue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-30T15:50:26.83Z",
               "EditorCaption": ""
@@ -638,8 +619,7 @@
               "RelativeToolTip": "Models\\Entity\\InventorySpace\\GoodsReceipt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T15:50:20.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T15:50:20.354Z"
             },
             {
               "$type": "Document",
@@ -927,8 +907,7 @@
               "RelativeToolTip": "Models\\Entity\\AccountingSpace\\Journal.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T20:59:11.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-29T20:59:11.365Z"
             },
             {
               "$type": "Document",
