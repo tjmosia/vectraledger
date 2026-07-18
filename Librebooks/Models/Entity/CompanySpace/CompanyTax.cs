@@ -30,7 +30,7 @@ public class CompanyTax ()
 	public virtual Tax? Tax { get; set; }
 	public virtual Company? Company { get; set; }
 
-	public static void BuildModel (ModelBuilder builder)
+	public static void OnModelCreating (ModelBuilder builder)
 	{
 		builder.Entity<CompanyTax>(options =>
 		{

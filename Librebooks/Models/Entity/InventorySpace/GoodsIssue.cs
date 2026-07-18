@@ -20,9 +20,8 @@ public class GoodsIssue(): VersionedEntityBase()
     public virtual int CompanyId { get; set; }
 	public virtual bool Recorded { get; set; } = false;
 	public virtual int WarehouseId { get; set; }
-	public virtual int 
 
-    public ICollection<GoodsIssueItem>? Items { get; set; }
+    public ICollection<GoodsIssueLine>? Items { get; set; }
 
 	public static void OnModelCreating(ModelBuilder modelBuilder)
 	{

@@ -93,11 +93,13 @@ public class AppDbContext :
 	public DbSet<JournalLine>? JournalEntries { get; set; }
 	public DbSet<LedgerAccountCashFlowType>? LedgerAccountCashFlowTypes { get; set; }
 	public DbSet<CompanyLedgerAccount>? CompanyLedgerAccounts { get; set; }
+	public DbSet<PostingRule>? PostingRules { get; set; }
+	public DbSet<PostingRuleGroup>? PostingRuleGroups { get; set; }
 
-	/************************************************************************************************
+    /************************************************************************************************
          * Banking Space
          ************************************************************************************************/
-	public DbSet<BankAccount>? BankAccounts { get; set; }
+    public DbSet<BankAccount>? BankAccounts { get; set; }
 	public DbSet<BankAccountCategory>? BankAccountCategories { get; set; }
 
 	/************************************************************************************************
@@ -225,7 +227,7 @@ public class AppDbContext :
 		CompanyMailSetup.OnModelCreating(builder);
 		CompanyRegionalSetup.OnModelCreating(builder);
 		CompanySetup.OnModelCreating(builder);
-		CompanyTax.BuildModel(builder);
+		CompanyTax.OnModelCreating(builder);
 		CompanyUser.OnModelCreating(builder);
 
 		/************************************************************************************************
@@ -246,7 +248,7 @@ public class AppDbContext :
 		Customer.OnModelCreating(builder);
 		CustomerAdjustment.OnModelCreating(builder);
 		CustomerCategory.OnModelCreating(builder);
-		CustomerContact.BuildModel(builder);
+		CustomerContact.OnModelCreating(builder);
 		CustomerNote.OnModelCreating(builder);
 		CustomerSetup.OnModelCreating(builder);
 
@@ -259,11 +261,13 @@ public class AppDbContext :
 		Journal.OnModelCreating(builder);
 		JournalLine.OnModelCreating(builder);
 		CompanyLedgerAccount.OnModelCreating(builder);
+		PostingRule.OnModelCreating(builder);
+		PostingRuleGroup.OnModelCreating(builder);
 
-		/************************************************************************************************
+        /************************************************************************************************
              * Supplier Space
              ************************************************************************************************/
-		Supplier.OnModelCreating(builder);
+        Supplier.OnModelCreating(builder);
 		SupplierNote.OnModelCreating(builder);
 		SupplierAdjustment.OnModelCreating(builder);
 		SupplierContact.OnModelCreating(builder);

@@ -13,9 +13,13 @@ public class Inventory () : VersionedEntityBase()
 	public virtual int Id { get; set; }
 	public virtual int ItemId { get; set; }
 	public virtual decimal QuantityOnHand { get; set; }
-	public virtual decimal MinQuantity { get; set; }
+	public virtual decimal QuantityReserved { get; set; }
+    public virtual decimal MinQuantity { get; set; }
 	public virtual decimal MaxQuantity { get; set; }
-	public virtual int? WarehouseId { get; set; }
+	public virtual decimal InventoryValue { get; set; }
+	public virtual decimal AverageCost { get; set; }
+
+    public virtual int? WarehouseId { get; set; }
 	public virtual int? BayId { get; set; }
 	public virtual int? ShelveId { get; set; }
 	public virtual int? BinId { get; set; }
@@ -48,6 +52,9 @@ public class Inventory () : VersionedEntityBase()
 			options.Property(x => x.QuantityOnHand)
 				.HasColumnType(ColumnTypes.NUMBER);
 
+			options.Property(x => x.QuantityReserved)
+				.HasColumnType(ColumnTypes.NUMBER);
+
 			options.Property(x => x.MinQuantity)
 				.HasColumnType(ColumnTypes.NUMBER);
 
@@ -56,6 +63,12 @@ public class Inventory () : VersionedEntityBase()
 
 			options.Property(x => x.Weight)
 				.HasColumnType(ColumnTypes.NUMBER);
+
+			options.Property(x => x.InventoryValue)
+				.HasColumnType(ColumnTypes.MONETARY);
+
+			options.Property(x => x.AverageCost)
+				.HasColumnType(ColumnTypes.MONETARY);
 
 			// Relationships
 			options.HasOne(p => p.Adjustments)

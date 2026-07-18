@@ -17,7 +17,7 @@ namespace Librebooks.Models.Entity.CustomerSpace
 
 		public virtual Contact? Contact { get; set; }
 		
-		public static void BuildModel (ModelBuilder builder)
+		public static void OnModelCreating (ModelBuilder builder)
 		{
 			builder.Entity<CustomerContact>(options =>
 			{

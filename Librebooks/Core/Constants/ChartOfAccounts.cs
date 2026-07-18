@@ -58,4 +58,3 @@ public readonly struct ChartOfAccountsnamespace
     public static readonly (string Name, int Value) GeneralRepairsAndMaintenance = ("General Repairs And Maintenance", 5900);
     public static readonly (string Name, int Value) BankChargesAndInterestPaid = ("Bank Charges And Interest Paid", 6000);
 }
-}

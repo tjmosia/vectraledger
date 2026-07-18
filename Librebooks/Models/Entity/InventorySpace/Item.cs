@@ -4,7 +4,6 @@ using Librebooks.Core.Constants;
 using Librebooks.Extensions.Models;
 using Librebooks.Models.Entity.AccountingSpace;
 using Librebooks.Models.Entity.CompanySpace;
-
 using Microsoft.EntityFrameworkCore;
 
 namespace Librebooks.Models.Entity.InventorySpace;
@@ -15,9 +14,7 @@ public class Item : VersionedEntityBase
 	public virtual int Id { get; set; }
 	public virtual string? Code { get; set; }
 	public virtual string? Description { get; set; }
-	public virtual string? UnitOfMeasure { get; set; }
-	public virtual decimal CostPrice { get; set; }
-	public virtual decimal SalePrice { get; set; }
+	public virtual string? UOM { get; set; }
 	public virtual bool Physical { get; set; }
 	public virtual int? CategoryId { get; set; }
 	public virtual int TaxId { get; set; }
@@ -25,7 +22,6 @@ public class Item : VersionedEntityBase
 	public virtual int Active { get; set; }
 	public virtual int DebitLedgerAccountId { get; set; }
 	public virtual int CreditLedgerAccountId { get; set; }
-	public virtual int? InventoryLedgerAccountId { get; set; }
 
 	public virtual Company? Company { get; set; }
 	public virtual ItemCategory? Category { get; set; }
@@ -59,14 +55,8 @@ public class Item : VersionedEntityBase
 				.IsRequired()
 				.HasMaxLength(255);
 
-			options.Property(x => x.UnitOfMeasure)
+			options.Property(x => x.UOM)
 				.HasMaxLength(20);
-
-			options.Property(x => x.Cost)
-				.HasColumnType(ColumnTypes.MONETARY);
-
-			options.Property(x => x.Price)
-				.HasColumnType(ColumnTypes.MONETARY);
 
 			// Relationships
 			options.HasMany(p => p.Inventories)
