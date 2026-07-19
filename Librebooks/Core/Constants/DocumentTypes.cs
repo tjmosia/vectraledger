@@ -1,23 +1,38 @@
-﻿namespace Librebooks.Core.Constants
+﻿namespace Librebooks.Core.Types.PurchasesAndSales;
+
+public readonly struct DocumentTypes
 {
-    public static class DocumentTypes
-    {
-        public static class Sales
-        {
-            public static string Quote = "doc/sales/quote";
-            public static string Order = "doc/sales/order";
-            public static string Invoice = "doc/sales/invoice";
-            public static string Credit = "doc/sales/credit";
-            public static string Receipt = "doc/sales/receipt";
-        }
+	public static readonly (string Name, int Value)
+		/***************************************************
+		 * CUSTOMERS DOCUMENTS
+		 **************************************************/
+		CustomerQuote = (Name: "Quote", Value: 1),
+		CustomerSalesOrder = (Name: "Sales Order", Value: 2),
+		CustomerProForma = (Name: "Pro Forma", Value: 3),
+		CustomerInvoice = (Name: "Tax Invoice", Value: 4),
+		CustomerGoodsReturnNote = (Name: "Goods Return Note", Value: 5),
+		CustomerGoodsIssuedNote = (Name: "Goods Issue Note", Value: 18),
+		CustomerCreditNote = (Name: "Credit Note", Value: 6),
+		CustomerReceipt = (Name: "Customer Receipt", Value: 7),
+		CustomerAdjustment = (Name: "Customer Adjustment", Value: 8),
+		CustomerWriteOff = (Name: "Customer Write Off", Value: 9),
 
-        public static class Purchases
-        {
-            public static string Order = "doc/purchases/order";
-            public static string Invoice = "doc/purchases/invoice";
-            public static string Return = "doc/purchases/return";
-            public static string Receipt = "doc/purchases/receipt";
-        }
+		/***************************************************
+		 * SUPPLIER DOCUMENTS
+		 **************************************************/
+		SupplierQuote = (Name: "Request For Quote", Value: 10),
+		SupplierPurchaseOrder = (Name: "Purchase Order", Value: 11),
+		SupplierInvoice = (Name: "Supplier Invoice", Value: 12),
+		SupplierReturn = (Name: "Supplier Return", Value: 13),
+		SupplierCreditNote = (Name: "Supplier Credit Note", Value: 14),
+		SupplierPayment = (Name: "Supplier Payment", Value: 15),
+		SupplierAdjustment = (Name: "Supplier Adjustment", Value: 16),
 
-    }
+
+		/***************************************************
+		 * SUPPLIER DOCUMENTS
+		 **************************************************/
+		InventoryTransfer = (Name: "Stock Transfer", Value: 17),
+		GoodsIssue = (Name: "", Value: 19),
+		GoodsReceipt = (Name: "", Value: 20);
 }

@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
 using Librebooks.Core.Constants;
 using Librebooks.Extensions.Models;
 using Librebooks.Models.Entity.BankingSpace;
@@ -16,45 +17,40 @@ public class SalesReceipt () : VersionedEntityBase()
 {
 	[Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 	public virtual int Id { get; set; }
-	public virtual DateOnly Date { get; set; }
-
-	[MaxLength(50)]
+	public virtual DateTime Date { get; set; }
 	public virtual string? Number { get; set; }
-
-	[MaxLength(50)]
 	public virtual string? Reference { get; set; }
-
-	[Column(TypeName = ColumnTypes.MONETARY)]
-	public virtual decimal SubTotal { get; set; }
-
-	[Column(TypeName = ColumnTypes.MONETARY)]
+	public virtual decimal Amount { get; set; }
 	public virtual decimal TaxAmount { get; set; }
-
-	[Column(TypeName = ColumnTypes.MONETARY)]
-	public virtual decimal GrandAmount { get; set; }
-
-	[MaxLength(255)]
-	public virtual string? Message { get; set; }
-
-	[MaxLength(255)]
-	public virtual string? Comments { get; set; }
-
-	public virtual bool Archived { get; set; }
+	public virtual decimal TotalAmount { get; set; }
+	public virtual decimal TaxRate { get; set; }
+	public virtual int TaxId { get; set; }
+	public virtual string? Description { get; set; }
+	public virtual string? Comment { get; set; }
 	public virtual bool Reconciled { get; set; }
-	public virtual bool Recorded { get; set; }
+	public virtual bool Posted { get; set; }
 	public virtual int BankAccountId { get; set; }
 	public virtual int CompanyId { get; set; }
 	public virtual int CustomerId { get; set; }
 	public virtual int PaymentMethodId { get; set; }
 
-	public BankAccount? BankAccount { get; set; }
-	public PaymentMethod? PaymentMethod { get; set; }
-	public ICollection<SalesInvoiceReceipt>? AllocatedInvoices { get; set; }
+	public virtual BankAccount? BankAccount { get; set; }
+	public virtual PaymentMethod? PaymentMethod { get; set; }
+	public virtual ICollection<SalesInvoiceReceipt>? AllocatedInvoices { get; set; }
 
 	public static void OnModelCreating (ModelBuilder builder)
 	{
 		builder.Entity<SalesReceipt>(options =>
 		  {
+			  options.Property(p => p.Amount).HasColumnType(ColumnTypes.MONETARY);
+			  options.Property(p => p.TotalAmount).HasColumnType(ColumnTypes.MONETARY);
+			  options.Property(p => p.TaxAmount).HasColumnType(ColumnTypes.MONETARY);
+			  options.Property(p => p.TaxRate).HasColumnType(ColumnTypes.PERCENTAGE);
+			  options.Property(p => p.Description).HasMaxLength(255);
+			  options.Property(p => p.Number).HasMaxLength(50);
+			  options.Property(p => p.Comment).HasMaxLength(255);
+			  options.Property(p => p.Reference).IsRequired().HasMaxLength(75);
+
 			  options.HasIndex(p => new { p.CompanyId, p.Id })
 				  .IsClustered();
 

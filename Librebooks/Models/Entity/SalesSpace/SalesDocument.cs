@@ -1,6 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Security.Cryptography.X509Certificates;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
 using Librebooks.Core.Constants;
 using Librebooks.Extensions.Models;
 using Librebooks.Models.Entity.CompanySpace;
@@ -15,71 +14,66 @@ namespace Librebooks.Models.Entity.SalesSpace;
 [Table(nameof(SalesDocument))]
 public class SalesDocument () : VersionedEntityBase()
 {
-	[Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 	public virtual int Id { get; set; }
-    public virtual int TypeId { get; set; }
-    public virtual int StatusId { get; set; }
-    public virtual DateOnly Date { get; set; }
-	public virtual DateOnly DueDate { get; set; }
-
-	[Required, MaxLength(50)]
+	public virtual DateTime Date { get; set; }
+	public virtual DateTime DueDate { get; set; }
 	public virtual string? Title { get; set; }
-
-	[MaxLength(20)]
 	public virtual string? Number { get; set; }
-
-	[MaxLength(50)]
 	public virtual string? CustomerReference { get; set; }
-
-	[MaxLength(255)]
 	public virtual string? Message { get; set; }
-
-	[MaxLength(500)]
 	public virtual string? FooterComment { get; set; }
-
-	public virtual int CurrencyId { get; set; }
-
-	[Column(TypeName = ColumnTypes.MONETARY)]
 	public virtual decimal SubTotalAmount { get; set; }
-
-	[Column(TypeName = ColumnTypes.MONETARY)]
-	public virtual decimal TaxAmount { get; set; }
-
-	[Column(TypeName = ColumnTypes.MONETARY)]
+	public virtual decimal VATAmount { get; set; }
 	public virtual decimal TotalAmount { get; set; }
-
+	public virtual int TypeId { get; set; }
+	public virtual int StatusId { get; set; }
 	public virtual int CustomerId { get; set; }
 	public virtual int CompanyId { get; set; }
 	public virtual int CustomerInfoId { get; set; }
 	public virtual int CompanyInfoId { get; set; }
-	public string? SalesPersonId { get; set; }
 	public virtual bool Recorded { get; set; }
-	public virtual bool Printed { get; set; }
-	public int? CreatorId { get; set; }
+	public int? SalesPersonId { get; set; }
+	public int CreatedById { get; set; }
+	public virtual string? CurrencyCode { get; set; }
 
-    public DocumentStatus? Status { get; set; }
-	public SalesPerson? SalesPerson { get; set; }
-	public SalesDocumentCustomerDetails? CustomerInfo { get; set; }
-	public DocumentCompanyDetails? CompanyInfo { get; set; }
+	public DocumentStatus? Status { get; set; }
+	public CompanySalesRep? SalesPerson { get; set; }
+	public SalesDocumentCustomerInfo? CustomerInfo { get; set; }
+	public DocumentCompanyInfo? CompanyInfo { get; set; }
 	public ICollection<SalesDocumentLine>? Lines { get; set; }
 	public Company? Company { get; set; }
 	public Customer? Customer { get; set; }
-	public User? Creator { get; set; }
+	public User? CreatedBy { get; set; }
 	public DocumentType? Type { get; set; }
+	public SalesQuote? Quote { get; set; }
+	public SalesProforma? ProForma { get; set; }
+	public SalesInvoice? Invoice { get; set; }
 
 	public static void OnModelCreating (ModelBuilder builder)
 	{
 		builder.Entity<SalesDocument>(options =>
 		{
+			options.HasKey(p => p.Id);
+			options.Property(p => p.Id).UseIdentityColumn();
+			options.HasIndex(p => new { p.CompanyId, p.CustomerId, p.Id }).IsClustered();
+			options.Property(p => p.SubTotalAmount).HasColumnType(ColumnTypes.MONETARY);
+			options.Property(p => p.VATAmount).HasColumnType(ColumnTypes.MONETARY);
+			options.Property(p => p.TotalAmount).HasColumnType(ColumnTypes.MONETARY);
+			options.Property(p => p.Number).HasMaxLength(50);
+			options.Property(p => p.FooterComment).HasMaxLength(400);
+			options.Property(p => p.Message).HasMaxLength(400);
+			options.Property(p => p.Title).HasMaxLength(75);
+			options.Property(p => p.CustomerReference).HasMaxLength(50);
+
 			options.HasMany(p => p.Lines)
 				.WithOne(p => p.Document)
 				.HasForeignKey(p => p.DocumentId)
 					.IsRequired()
 				.OnDelete(DeleteBehavior.Cascade);
 
-			options.HasOne(p => p.Creator)
+			options.HasOne(p => p.CreatedBy)
 				.WithOne()
-				.HasForeignKey<SalesDocument>(p => p.CreatorId)
+				.HasForeignKey<SalesDocument>(p => p.CreatedById)
 					.IsRequired(false)
 				.OnDelete(DeleteBehavior.SetNull);
 

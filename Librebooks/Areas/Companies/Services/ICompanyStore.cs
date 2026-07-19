@@ -58,7 +58,7 @@ public interface ICompanyStore
 	/***********************************************************************************************************************************
     ****** DELETE TRANSACTIONS
     ***********************************************************************************************************************************/
-	Task<TransactionResult> DeleteSalesPersonAsync (SalesPerson salesPerson);
+	Task<TransactionResult> DeleteSalesPersonAsync (CompanySalesRep salesPerson);
 	Task<TransactionResult> DeleteAsync (Company company);
 	Task<TransactionResult> DeleteTaxAsync (CompanyTax companyTax);
 	Task<TransactionResult> DeleteBankAccountAsync (BankAccount bankAccount);

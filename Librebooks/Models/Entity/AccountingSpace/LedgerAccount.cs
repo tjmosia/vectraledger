@@ -1,5 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
 using Librebooks.Extensions.Models;
 using Librebooks.Models.Entity.CompanySpace;
 
@@ -10,15 +10,9 @@ namespace Librebooks.Models.Entity.AccountingSpace;
 [Table(nameof(LedgerAccount))]
 public class LedgerAccount () : VersionedEntityBase()
 {
-	[Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 	public virtual int Id { get; set; }
-
-	[Required, MaxLength(75)]
 	public virtual string? Name { get; set; }
-
 	public virtual int TaxId { get; set; }
-
-	[MaxLength(255), Required]
 	public virtual string? Description { get; set; }
 	public virtual int? ParentId { get; set; }
 	public virtual bool Active { get; set; }
@@ -37,6 +31,23 @@ public class LedgerAccount () : VersionedEntityBase()
 	public static void OnModelCreating (ModelBuilder builder)
 		=> builder.Entity<LedgerAccount>(options =>
 		{
+			// Table
+			options.ToTable(nameof(LedgerAccount));
+
+			// Key
+			options.HasKey(x => x.Id);
+			options.Property(x => x.Id).UseIdentityColumn();
+
+			// Properties
+			options.Property(x => x.Name)
+				.IsRequired()
+				.HasMaxLength(75);
+
+			options.Property(x => x.Description)
+				.IsRequired()
+				.HasMaxLength(255);
+
+			// Relationships
 			options.HasMany(p => p.ChildAccounts)
 				.WithOne(p => p.Parent)
 				.HasForeignKey(p => p.ParentId)

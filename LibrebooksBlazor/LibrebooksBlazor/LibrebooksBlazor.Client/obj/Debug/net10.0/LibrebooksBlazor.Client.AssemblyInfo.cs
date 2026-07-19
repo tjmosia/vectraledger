@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibrebooksBlazor.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fd3e5240c1c5b0808919aa16d00686af7bf7753")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6413e685200cd499d17bac8250ef28acccf5aa9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibrebooksBlazor.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibrebooksBlazor.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

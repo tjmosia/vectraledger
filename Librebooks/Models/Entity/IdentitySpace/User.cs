@@ -21,8 +21,8 @@ public class User : IdentityUser<int>
     [MaxLength(155)]
     public virtual string? Photo { get; set; }
 
-    public virtual DateOnly DateRegistered { get; set; }
-    public virtual DateOnly DateLastLoggedIn { get; set; }
+    public virtual DateTime DateRegistered { get; set; }
+    public virtual DateTime DateLastLoggedIn { get; set; }
 
     public ICollection<UserRole>? Roles { get; set; }
     public ICollection<UserLogin>? Logins { get; set; }

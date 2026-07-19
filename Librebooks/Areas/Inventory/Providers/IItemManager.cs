@@ -6,7 +6,7 @@ namespace Librebooks.Areas.Inventory.Providers;
 
 public interface IItemManager
 {
-	Task<TransactionResult<Item>> AddAdjustmentAsync (Company company, Item item, ItemAdjustment adjustment);
-	Task<TransactionResult<Item>> UpdateAdjustmentAsync (ItemAdjustment adjustment, Item item);
-	Task<TransactionResult> DeleteAdjustmentAsync (ItemAdjustment adjustment);
+	Task<TransactionResult<Item>> AddAdjustmentAsync (Company company, Item item, InventoryAdjustment adjustment);
+	Task<TransactionResult<Item>> UpdateAdjustmentAsync (InventoryAdjustment adjustment, Item item);
+	Task<TransactionResult> DeleteAdjustmentAsync (InventoryAdjustment adjustment);
 }

@@ -166,7 +166,7 @@ public partial class CompanyStore(AppDbContext context, ILogger<CompanyStore> lo
         {
             var result = await context.Contacts!.AddAsync(contact);
 
-            await context.SalesPeople!.AddAsync(new SalesPerson
+            await context.SalesPeople!.AddAsync(new CompanySalesRep
             {
                 CompanyId = company.Id,
                 ContactId = contact.Id,
@@ -437,7 +437,7 @@ public partial class CompanyStore(AppDbContext context, ILogger<CompanyStore> lo
 	 * DELETE OPERATIONS
 	 ************************************************************************/
 
-    public async Task<TransactionResult> DeleteSalesPersonAsync(SalesPerson salesPerson)
+    public async Task<TransactionResult> DeleteSalesPersonAsync(CompanySalesRep salesPerson)
     {
         try
         {

@@ -22,29 +22,37 @@
     <Compile Remove="Areas\Suppliers\Controllers\**" />
     <Compile Remove="Areas\Suppliers\Data\**" />
     <Compile Remove="Areas\Suppliers\Models\**" />
+    <Compile Remove="Core\Types\Accounting\**" />
     <Compile Remove="Extensions\Data\**" />
     <Compile Remove="Extensions\Identity\**" />
+    <Compile Remove="Test-Data\**" />
     <Content Remove="Areas\Accounting\Controllers\**" />
     <Content Remove="Areas\Inventory\Data\**" />
     <Content Remove="Areas\Suppliers\Controllers\**" />
     <Content Remove="Areas\Suppliers\Data\**" />
     <Content Remove="Areas\Suppliers\Models\**" />
+    <Content Remove="Core\Types\Accounting\**" />
     <Content Remove="Extensions\Data\**" />
     <Content Remove="Extensions\Identity\**" />
+    <Content Remove="Test-Data\**" />
     <EmbeddedResource Remove="Areas\Accounting\Controllers\**" />
     <EmbeddedResource Remove="Areas\Inventory\Data\**" />
     <EmbeddedResource Remove="Areas\Suppliers\Controllers\**" />
     <EmbeddedResource Remove="Areas\Suppliers\Data\**" />
     <EmbeddedResource Remove="Areas\Suppliers\Models\**" />
+    <EmbeddedResource Remove="Core\Types\Accounting\**" />
     <EmbeddedResource Remove="Extensions\Data\**" />
     <EmbeddedResource Remove="Extensions\Identity\**" />
+    <EmbeddedResource Remove="Test-Data\**" />
     <None Remove="Areas\Accounting\Controllers\**" />
     <None Remove="Areas\Inventory\Data\**" />
     <None Remove="Areas\Suppliers\Controllers\**" />
     <None Remove="Areas\Suppliers\Data\**" />
     <None Remove="Areas\Suppliers\Models\**" />
+    <None Remove="Core\Types\Accounting\**" />
     <None Remove="Extensions\Data\**" />
     <None Remove="Extensions\Identity\**" />
+    <None Remove="Test-Data\**" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
@@ -60,6 +68,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.OpenApi" Version="3.9.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="10.0.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore" Version="10.0.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
@@ -70,7 +79,6 @@
   <ItemGroup>
     <Folder Include="Areas\Identity\Models\Account\DataTransferObjects\" />
     <Folder Include="Areas\Systems\Providers\Stores\" />
-    <Folder Include="Core\Types\Accounting\" />
-    <Folder Include="Test-Data\" />
+    <Folder Include="Core\Types\PurchasesAndSales\" />
   </ItemGroup>
 </Project>

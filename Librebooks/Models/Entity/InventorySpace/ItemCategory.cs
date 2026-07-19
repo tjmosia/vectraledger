@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
+using Librebooks.Extensions.Models;
 using Librebooks.Models.Entity.CompanySpace;
 
 using Microsoft.EntityFrameworkCore;
@@ -8,15 +10,11 @@ namespace Librebooks.Models.Entity.InventorySpace;
 
 [Table(nameof(ItemCategory))]
 [Index(nameof(CompanyId), nameof(Name), IsUnique = true)]
-public class ItemCategory
+public class ItemCategory(): VersionedEntityBase()
 {
     [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public virtual int Id { get; set; }
-
-    [Required, MaxLength(100)]
     public virtual string? Name { get; set; }
-
-    [Required, MaxLength(155)]
     public virtual string? Description { get; set; }
     public virtual int CompanyId { get; set; }
     public virtual int? ParentId { get; set; }
@@ -29,6 +27,8 @@ public class ItemCategory
     public static void OnModelCreating (ModelBuilder builder)
         => builder.Entity<ItemCategory>(options =>
         {
+            options.Property(p=>p.Name).IsRequired().HasMaxLength(155);
+            options.Property(p=>p.Description).IsRequired().HasMaxLength(255);
             options.HasIndex(p => new { p.CompanyId, p.Id })
                 .IsClustered();
 

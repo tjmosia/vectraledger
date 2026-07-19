@@ -309,3 +309,15 @@ C:\Users\TJmos\source\repos\Librebooks\Librebooks\obj\Debug\net10.0\Librebooks.g
 C:\Users\TJmos\source\repos\Librebooks\Librebooks\obj\Debug\net10.0\ref\Librebooks.dll
 C:\Users\TJmos\source\repos\Librebooks\Librebooks\bin\Debug\net10.0\FluentValidation.dll
 C:\Users\TJmos\source\repos\Librebooks\Librebooks\bin\Debug\net10.0\Areas\Companies\Controllers\CompaniesTestData.json
+C:\Users\TJmos\github\librebooks\Librebooks\obj\Debug\net10.0\Librebooks.csproj.AssemblyReference.cache
+C:\Users\TJmos\github\librebooks\Librebooks\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\TJmos\github\librebooks\Librebooks\obj\Debug\net10.0\Librebooks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TJmos\github\librebooks\Librebooks\obj\Debug\net10.0\Librebooks.AssemblyInfoInputs.cache
+C:\Users\TJmos\github\librebooks\Librebooks\obj\Debug\net10.0\Librebooks.AssemblyInfo.cs
+C:\Users\TJmos\github\librebooks\Librebooks\obj\Debug\net10.0\Librebooks.csproj.CoreCompileInputs.cache
+C:\Users\TJmos\github\librebooks\Librebooks\obj\Debug\net10.0\Librebooks.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\TJmos\github\librebooks\Librebooks\obj\Debug\net10.0\Librebooks.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\TJmos\github\librebooks\Librebooks\obj\Debug\net10.0\Librebooks.sourcelink.json
+C:\Users\TJmos\github\librebooks\Librebooks\obj\Debug\net10.0\Librebooks.dll
+C:\Users\TJmos\github\librebooks\Librebooks\obj\Debug\net10.0\refint\Librebooks.dll
+C:\Users\TJmos\github\librebooks\Librebooks\obj\Debug\net10.0\Librebooks.pdb

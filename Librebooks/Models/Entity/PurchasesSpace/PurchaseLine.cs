@@ -26,10 +26,10 @@ public class PurchaseLine () : VersionedEntityBase()
 	[Column(TypeName = ColumnTypes.MONETARY)]
 	public virtual decimal UnitCost { get; set; }
 
-	[Column(TypeName = ColumnTypes.PERCENTATE)]
+	[Column(TypeName = ColumnTypes.PERCENTAGE)]
 	public virtual decimal DiscountRate { get; set; }
 
-	[Column(TypeName = ColumnTypes.PERCENTATE)]
+	[Column(TypeName = ColumnTypes.PERCENTAGE)]
 	public virtual decimal TaxRate { get; set; }
 
     [Column(TypeName = ColumnTypes.MONETARY)]

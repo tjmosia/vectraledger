@@ -40,7 +40,7 @@ public class Supplier
 	[MaxLength(155)]
 	public virtual string? PostalAddress { get; set; }
 
-	[Column(TypeName = ColumnTypes.PERCENTATE)]
+	[Column(TypeName = ColumnTypes.PERCENTAGE)]
 	public virtual decimal Discount { get; set; }
 
 	public virtual int PaymentTermId { get; set; }

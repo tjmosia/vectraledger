@@ -1,32 +1,22 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Core.Constants;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+using Librebooks.Extensions.Models;
 using Librebooks.Models.Entity.CompanySpace;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace Librebooks.Models.Entity.AccountingSpace;
 
 [Table(nameof(Journal))]
-public class Journal
+public class Journal () : VersionedEntityBase()
 {
-	[Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 	public virtual int Id { get; set; }
-
-	[Column(ColumnTypes.DATE)]
 	public virtual DateOnly DateCreated { get; set; }
-
-	[MaxLength(50)]
-	public virtual string? Reference { get; set; }
-
-	[MaxLength(255)]
 	public virtual string? Description { get; set; }
 	public virtual int CompanyId { get; set; }
-
 	public virtual bool Posted { get; set; }
+	public virtual int? SourceType { get; set; }
 	public virtual int? SourceId { get; set; }
-
-	[Column(TypeName = "CHAR(1)")]
-	public virtual string? SourceType { get; set; }
 
 	public Company? Company { get; set; }
 
@@ -36,6 +26,10 @@ public class Journal
 	{
 		builder.Entity<Journal>(options =>
 		{
+			options.HasKey(p => p.Id);
+			options.Property(p => p.Id).UseIdentityColumn();
+			options.Property(p => p.Description).IsRequired().HasMaxLength(255);
+
 			options.HasIndex(p => new { p.CompanyId, p.Id })
 				.IsClustered()
 				.IsUnique();
@@ -43,6 +37,11 @@ public class Journal
 			options.HasMany(p => p.Entries)
 				.WithOne(p => p.Journal)
 				.HasForeignKey(p => p.JournalId)
+					.IsRequired()
+				.OnDelete(DeleteBehavior.Restrict);
+
+			options.HasOne(p => p.Company).WithOne()
+				.HasForeignKey<Journal>(p => p.CompanyId)
 					.IsRequired()
 				.OnDelete(DeleteBehavior.Restrict);
 		});

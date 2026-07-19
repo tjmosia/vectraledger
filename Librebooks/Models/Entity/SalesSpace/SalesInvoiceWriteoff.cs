@@ -1,14 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
 using Librebooks.Core.Constants;
-using Librebooks.Extensions.Models;
+using Librebooks.Models.Entity;
 using Librebooks.Models.Entity.CustomerSpace;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace Librebooks.Models.Entity.SalesSpace;
 
 [Table(nameof(SalesInvoiceWriteoff))]
-public class SalesInvoiceWriteoff () : VersionedEntityBase()
+public class SalesInvoiceWriteoff
 {
 	[Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 	public virtual int Id { get; set; }
@@ -18,8 +20,8 @@ public class SalesInvoiceWriteoff () : VersionedEntityBase()
 	[Column(TypeName = ColumnTypes.MONETARY)]
 	public virtual decimal Amount { get; set; }
 
-	public CustomerWriteOff? WriteOff { get; set; }
-	public SalesInvoice? Invoice { get; set; }
+	public virtual CustomerWriteOff? WriteOff { get; set; }
+	public virtual SalesInvoice? Invoice { get; set; }
 
 	public static void OnModelCreating (ModelBuilder builder)
 	{

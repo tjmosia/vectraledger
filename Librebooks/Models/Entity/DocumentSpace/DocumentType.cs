@@ -1,6 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
 using Librebooks.Extensions.Models;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 
@@ -15,9 +17,6 @@ public class DocumentType () : VersionedEntityBase()
 
 	[Required, MaxLength(75)]
 	public virtual string? Name { get; set; }
-
-	[Required, MaxLength(50)]
-	public virtual string? Group { get; set; }
 
 	[Required, MaxLength(6)]
 	public virtual string? Prefix { get; set; }

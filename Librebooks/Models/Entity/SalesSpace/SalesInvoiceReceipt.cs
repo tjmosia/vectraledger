@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+
 using Librebooks.Core.Constants;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace Librebooks.Models.Entity.SalesSpace;
@@ -14,8 +16,8 @@ public class SalesInvoiceReceipt
     [Column(TypeName = ColumnTypes.MONETARY)]
     public virtual decimal Amount { get; set; }
 
-    public SalesInvoice? Invoice { get; set; }
-    public SalesReceipt? Receipt { get; set; }
+    public virtual SalesInvoice? Invoice { get; set; }
+    public virtual SalesReceipt? Receipt { get; set; }
 
     public static void OnModelCreating (ModelBuilder builder)
     {

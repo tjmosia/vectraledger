@@ -21,10 +21,7 @@ namespace Librebooks.Models.Entity.SystemSpace
 
         public ICollection<Company>? Companies { get; set; }
 
-        public BusinessSector (string name) : this()
-        {
-            Name = name;
-        }
+        public BusinessSector(string name) : this() => Name = name;
 
         public static void OnModelCreating (ModelBuilder builder)
         {

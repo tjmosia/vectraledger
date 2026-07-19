@@ -65,45 +65,6 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VersionedEntityBase.cs",
-              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Models\\VersionedEntityBase.cs",
-              "RelativeDocumentMoniker": "LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Models\\VersionedEntityBase.cs",
-              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Models\\VersionedEntityBase.cs",
-              "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Models\\VersionedEntityBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T15:26:05.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SessionControllerBase.cs",
-              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Mvc\\SessionControllerBase.cs",
-              "RelativeDocumentMoniker": "LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Mvc\\SessionControllerBase.cs",
-              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Mvc\\SessionControllerBase.cs",
-              "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Mvc\\SessionControllerBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T15:25:03.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LibrebooksBlazor",
-              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor.csproj",
-              "RelativeDocumentMoniker": "LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor.csproj",
-              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor.csproj",
-              "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-14T15:24:58.253Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
@@ -117,13 +78,49 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VersionedEntityBase.cs",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Models\\VersionedEntityBase.cs",
+              "RelativeDocumentMoniker": "LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Models\\VersionedEntityBase.cs",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Models\\VersionedEntityBase.cs",
+              "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Models\\VersionedEntityBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T15:26:05.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SessionControllerBase.cs",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Mvc\\SessionControllerBase.cs",
+              "RelativeDocumentMoniker": "LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Mvc\\SessionControllerBase.cs",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Mvc\\SessionControllerBase.cs",
+              "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Extensions\\Mvc\\SessionControllerBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T15:25:03.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibrebooksBlazor.csproj",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor.csproj",
+              "RelativeDocumentMoniker": "LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor.csproj",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor.csproj",
+              "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-14T15:24:58.253Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CompaniesController.cs",
               "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Companies\\Controllers\\CompaniesController.cs",
               "RelativeDocumentMoniker": "LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Companies\\Controllers\\CompaniesController.cs",
-              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Companies\\Controllers\\CompaniesController.cs",
-              "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Companies\\Controllers\\CompaniesController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBEAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\Librebooks\\LibrebooksBlazor\\LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Companies\\Controllers\\CompaniesController.cs*",
+              "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Companies\\Controllers\\CompaniesController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-14T15:24:15.467Z",
               "EditorCaption": ""
@@ -138,8 +135,7 @@
               "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Companies\\Services\\CompanyStore.Deletes.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAuwDoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T15:23:53.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T15:23:53.203Z"
             },
             {
               "$type": "Document",
@@ -151,8 +147,7 @@
               "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Systems\\Services\\SystemsManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T15:23:41.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T15:23:41.714Z"
             },
             {
               "$type": "Document",
@@ -164,8 +159,7 @@
               "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Companies\\Services\\CompanyStore.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T15:23:32.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T15:23:32.254Z"
             },
             {
               "$type": "Document",
@@ -177,8 +171,7 @@
               "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Companies\\Services\\CompanyStore.Writes.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T15:22:53.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T15:22:53.495Z"
             },
             {
               "$type": "Document",
@@ -190,8 +183,7 @@
               "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Systems\\Services\\ISystemsManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T15:22:42.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T15:22:42.44Z"
             },
             {
               "$type": "Document",
@@ -203,8 +195,7 @@
               "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Suppliers\\Services\\SupplierManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T15:22:34.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T15:22:34.711Z"
             },
             {
               "$type": "Document",
@@ -216,8 +207,7 @@
               "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Inventory\\Controllers\\InventoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T15:21:52.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T15:21:52.658Z"
             },
             {
               "$type": "Document",
@@ -229,8 +219,7 @@
               "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Areas\\Identity\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T15:21:48.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T15:21:48.434Z"
             },
             {
               "$type": "Document",
@@ -242,8 +231,7 @@
               "RelativeToolTip": "LibrebooksBlazor\\LibrebooksBlazor\\Areas\\AreaServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T15:21:25.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T15:21:25.07Z"
             }
           ]
         }

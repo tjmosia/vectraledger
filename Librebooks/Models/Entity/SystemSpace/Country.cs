@@ -29,6 +29,7 @@ public class Country () : VersionedEntityBase()
 	{
 		builder.Entity<Country>(options =>
 		{
+
 		});
 	}
 }

@@ -16,7 +16,7 @@ namespace Librebooks.Models.Entity.PurchasesSpace
 	{
 		[Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 		public virtual int Id { get; set; }
-		public virtual DateOnly Date { get; set; }
+		public virtual DateTime Date { get; set; }
 
 		[MaxLength(50), Required]
 		public virtual string? Number { get; set; }

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Models.Entity.CustomerSpace;
+
 using Librebooks.Models.Entity.IdentitySpace;
 
 using Microsoft.EntityFrameworkCore;
@@ -17,7 +17,7 @@ namespace Librebooks.Models.Entity.CompanySpace
 
 		public virtual Company? Company { get; set; }
 		public virtual User? User { get; set; }
-		public virtual SalesPerson? SalesPerson { get; set; }
+		public virtual CompanySalesRep? SalesPerson { get; set; }
 
 		public CompanyUser (int companyId, int userId) : this()
 		{
@@ -41,7 +41,7 @@ namespace Librebooks.Models.Entity.CompanySpace
 
 				   options.HasOne(p=>p.SalesPerson)
 					   .WithOne(p => p.CompanyUser)
-					   .HasForeignKey<SalesPerson>(p => p.CompanyUserId)
+					   .HasForeignKey<CompanySalesRep>(p => p.CompanyUserId)
 						   .IsRequired(false)
 					   .OnDelete(DeleteBehavior.Restrict);
 			   });

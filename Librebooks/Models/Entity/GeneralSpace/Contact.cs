@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
 using Librebooks.Extensions.Models;
+using Librebooks.Models.Entity.CompanySpace;
 using Librebooks.Models.Entity.CustomerSpace;
-using Librebooks.Models.Entity.PurchasesSpace;
 using Librebooks.Models.Entity.SupplierSpace;
 
 using Microsoft.EntityFrameworkCore;
@@ -34,8 +35,8 @@ namespace Librebooks.Models.Entity.GeneralSpace
 
 		public CustomerContact? CustomerContact { get; set;  }
 		public SupplierContact? SupplierContact { get; set; }
-		public SalesPerson? SalesPerson { get; set; }
-		public PurchaseBuyer? PurchaseBuyer { get; set;  }
+		public CompanySalesRep? SalesPerson { get; set; }
+		public CompanyBuyer? PurchaseBuyer { get; set;  }
 
 		public static void OnModelCreating (ModelBuilder builder)
 		{
@@ -43,7 +44,7 @@ namespace Librebooks.Models.Entity.GeneralSpace
 			{
 				options.HasOne(p=>p.SalesPerson)
 					.WithOne(p => p.Contact)
-					.HasForeignKey<SalesPerson>(p => p.ContactId)
+					.HasForeignKey<CompanySalesRep>(p => p.ContactId)
 						.IsRequired()
 					.OnDelete(DeleteBehavior.Restrict);
 
@@ -61,7 +62,7 @@ namespace Librebooks.Models.Entity.GeneralSpace
 
 				options.HasOne(p=>p.PurchaseBuyer)
 					.WithOne(p => p.Contact)
-					.HasForeignKey<PurchaseBuyer>(p => p.ContactId)
+					.HasForeignKey<CompanyBuyer>(p => p.ContactId)
 						.IsRequired()
 					.OnDelete(DeleteBehavior.Restrict);
 			});

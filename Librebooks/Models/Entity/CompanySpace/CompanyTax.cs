@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
 using Librebooks.Models.Entity.AccountingSpace;
 using Librebooks.Models.Entity.InventorySpace;
 using Librebooks.Models.Entity.PurchasesSpace;
@@ -29,15 +30,15 @@ public class CompanyTax ()
 	public virtual Tax? Tax { get; set; }
 	public virtual Company? Company { get; set; }
 
-	public static void BuildModel (ModelBuilder builder)
+	public static void OnModelCreating (ModelBuilder builder)
 	{
 		builder.Entity<CompanyTax>(options =>
 		{
-			options.HasIndex(p => new { p.CompanyId, p.TaxId })
+			options.HasIndex(p => new { p.CompanyId, p.TaxId, p.Id })
 				.IsUnique()
 				.IsClustered();
 
-			options.HasOne(p=> p.Company)
+			options.HasOne(p => p.Company)
 				.WithMany(p => p.Taxes)
 				.HasForeignKey(p => p.CompanyId)
 					.IsRequired()
@@ -61,7 +62,7 @@ public class CompanyTax ()
 					.IsRequired(false)
 				.OnDelete(DeleteBehavior.SetNull);
 
-			options.HasMany<SalesLine>()
+			options.HasMany<SalesDocumentLine>()
 				.WithOne(p => p.Tax)
 				.HasForeignKey(p => p.TaxId)
 					.IsRequired(false)

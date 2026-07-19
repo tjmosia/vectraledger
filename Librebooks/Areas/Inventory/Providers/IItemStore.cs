@@ -19,12 +19,12 @@ public interface IItemStore
 	/********************************************************************
 	 * ITEM ADJUSTMENTS OPERATIONS
 	 ********************************************************************/
-	Task<IList<ItemAdjustment>> FindAdjustmentsByItemAsync (Item item, CancellationToken cancellationToken = default);
-	Task<IList<ItemAdjustment>> FindAdjustmentsAsync (Company company, CancellationToken cancellationToken = default);
-	Task<ItemAdjustment?> FindAdjustmentByIdAsync (Company company, int adjustmentId, CancellationToken cancellationToken = default);
-	Task<TransactionResult<ItemAdjustment>> CreateAdjustmentAsync (Item item, ItemAdjustment adjustment);
-	Task<TransactionResult<ItemAdjustment>> UpdateAdjustmentAsync (ItemAdjustment adjustment);
-	Task<TransactionResult> DeleteAdjustmentAsync (ItemAdjustment adjustment);
+	Task<IList<InventoryAdjustment>> FindAdjustmentsByItemAsync (Item item, CancellationToken cancellationToken = default);
+	Task<IList<InventoryAdjustment>> FindAdjustmentsAsync (Company company, CancellationToken cancellationToken = default);
+	Task<InventoryAdjustment?> FindAdjustmentByIdAsync (Company company, int adjustmentId, CancellationToken cancellationToken = default);
+	Task<TransactionResult<InventoryAdjustment>> CreateAdjustmentAsync (Item item, InventoryAdjustment adjustment);
+	Task<TransactionResult<InventoryAdjustment>> UpdateAdjustmentAsync (InventoryAdjustment adjustment);
+	Task<TransactionResult> DeleteAdjustmentAsync (InventoryAdjustment adjustment);
 
 	/********************************************************************
 	 * ITEM CATEGORIES

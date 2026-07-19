@@ -17,7 +17,7 @@ public class Tax () : VersionedEntityBase()
 	[Required, MaxLength(75)]
 	public virtual string? Name { get; set; }
 
-	[Column(TypeName = ColumnTypes.PERCENTATE)]
+	[Column(TypeName = ColumnTypes.PERCENTAGE)]
 	public virtual decimal Rate { get; set; }
 
 	public virtual bool System { get; set; }
