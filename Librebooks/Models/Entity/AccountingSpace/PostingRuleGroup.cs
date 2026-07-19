@@ -1,14 +1,15 @@
-﻿using Librebooks.Extensions.Models;
-using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Librebooks.Models.Entity.AccountingSpace;
+using Microsoft.EntityFrameworkCore;
+
+using VectraBooks.Extensions.Models;
+
+namespace VectraBooks.Models.Entity.AccountingSpace;
 
 [Table(nameof(PostingRuleGroup))]
 public class PostingRuleGroup():VersionedEntityBase()
 {
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity), Key]
     public virtual int Id { get; set; }
     public virtual string? Name { get; set;  }
 
@@ -18,9 +19,9 @@ public class PostingRuleGroup():VersionedEntityBase()
     {
         modelBuilder.Entity<PostingRuleGroup>(entity =>
         {
-            entity.HasIndex(p => new { p.Id })
-                .IsClustered();
-            entity.HasIndex(p => p.Name).IsUnique();
+            entity.HasKey(x => x.Id);
+            entity.Property(p => p.Id).UseIdentityColumn();
+			entity.HasIndex(p => p.Name).IsUnique();
             entity.Property(p => p.Name).IsRequired().HasMaxLength(75);
 
             entity.HasMany(p => p.Rules)

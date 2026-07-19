@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Core.Constants;
+using VectraBooks.Core.Constants;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.PurchasesSpace;
+namespace VectraBooks.Models.Entity.PurchasesSpace;
 
 [Table(nameof(PurchaseCreditInvoice))]
 public class PurchaseCreditInvoice

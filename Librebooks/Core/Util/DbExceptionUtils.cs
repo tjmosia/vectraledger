@@ -1,7 +1,7 @@
-﻿using Librebooks.Core.Constants;
+﻿using VectraBooks.Core.Constants;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Core.Util;
+namespace VectraBooks.Core.Util;
 
 public class DbExceptionUtils
 {

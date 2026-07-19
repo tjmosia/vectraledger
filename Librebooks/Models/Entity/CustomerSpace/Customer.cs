@@ -1,14 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.SalesSpace;
-using Librebooks.Models.Entity.SystemSpace;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.SalesSpace;
+using VectraBooks.Models.Entity.SystemSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.CustomerSpace;
+namespace VectraBooks.Models.Entity.CustomerSpace;
 
 [Table(nameof(Customer))]
 public class Customer () : VersionedEntityBase()

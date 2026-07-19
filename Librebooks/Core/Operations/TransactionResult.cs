@@ -1,5 +1,5 @@
 ﻿
-namespace Librebooks.Core.Operations
+namespace VectraBooks.Core.Operations
 {
 	/// <summary>
 	/// Returns a summary result of a transaction associated with <typeparamref name="TModel"/>.

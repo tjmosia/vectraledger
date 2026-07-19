@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.SystemSpace;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.SystemSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.CompanySpace;
+namespace VectraBooks.Models.Entity.CompanySpace;
 
 [Table(nameof(CompanyRegionalSetup))]
 public class CompanyRegionalSetup () : VersionedEntityBase()

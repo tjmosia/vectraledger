@@ -1,12 +1,12 @@
-﻿using Librebooks.Areas.Identity.Models.Authentication.Models;
-using Librebooks.Areas.Identity.Services;
-using Librebooks.Core.Operations;
-using Librebooks.Models.Entity.GeneralSpace;
-using Librebooks.Providers.Managers;
+﻿using VectraBooks.Areas.Identity.Models.Authentication.Models;
+using VectraBooks.Areas.Identity.Services;
+using VectraBooks.Core.Operations;
+using VectraBooks.Models.Entity.GeneralSpace;
+using VectraBooks.Providers.Managers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Librebooks.Areas.Identity.Controllers;
+namespace VectraBooks.Areas.Identity.Controllers;
 
 [Route("verifications")]
 [ApiController]

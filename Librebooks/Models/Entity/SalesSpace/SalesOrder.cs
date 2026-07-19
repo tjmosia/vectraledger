@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.CustomerSpace;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.CustomerSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.SalesSpace;
+namespace VectraBooks.Models.Entity.SalesSpace;
 
 [Table(nameof(SalesOrder))]
 public class SalesOrder

@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Models.Entity.IdentitySpace;
+using VectraBooks.Models.Entity.IdentitySpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.CompanySpace
+namespace VectraBooks.Models.Entity.CompanySpace
 {
 	[Table(nameof(CompanyUser))]
 	public class CompanyUser ()

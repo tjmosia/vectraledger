@@ -1,18 +1,18 @@
-﻿using Librebooks.Areas.Accounting.Providers;
-using Librebooks.Areas.Systems.Providers;
-using Librebooks.Core.Constants;
-using Librebooks.Core.Operations;
-using Librebooks.Models.Entity.AccountingSpace;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.CustomerSpace;
-using Librebooks.Models.Entity.DocumentSpace;
-using Librebooks.Models.Entity.IdentitySpace;
-using Librebooks.Models.Entity.InventorySpace;
-using Librebooks.Models.Entity.SupplierSpace;
-using Librebooks.Models.Entity.SystemSpace;
-using Librebooks.Providers.Stores;
+﻿using VectraBooks.Areas.Accounting.Providers;
+using VectraBooks.Areas.Systems.Providers;
+using VectraBooks.Core.Constants;
+using VectraBooks.Core.Operations;
+using VectraBooks.Models.Entity.AccountingSpace;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.CustomerSpace;
+using VectraBooks.Models.Entity.DocumentSpace;
+using VectraBooks.Models.Entity.IdentitySpace;
+using VectraBooks.Models.Entity.InventorySpace;
+using VectraBooks.Models.Entity.SupplierSpace;
+using VectraBooks.Models.Entity.SystemSpace;
+using VectraBooks.Providers.Stores;
 
-namespace Librebooks.Areas.Companies.Services;
+namespace VectraBooks.Areas.Companies.Services;
 
 public class CompanyManager (ICompanyStore store, SystemsStore systemsStore, DocumentSetupStore documentSetupStore, IAccountsStore? ledgerAccountStore) 
 	: ICompanyManager

@@ -1,6 +1,6 @@
-﻿using Librebooks.Data;
+﻿using VectraBooks.Data;
 
-namespace Librebooks.Areas.Customers.Providers
+namespace VectraBooks.Areas.Customers.Providers
 {
 	public class SalesManager (AppDbContext context, ISalesStore store) : ISalesManager
 	{

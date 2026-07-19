@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Authentication;
 
-namespace Librebooks.Areas.Identity.Services
+namespace VectraBooks.Areas.Identity.Services
 {
     public class AuthenticationServiceExtension : IAuthenticationService
     {

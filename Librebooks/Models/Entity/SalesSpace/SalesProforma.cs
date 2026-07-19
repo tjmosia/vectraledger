@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.SalesSpace;
+namespace VectraBooks.Models.Entity.SalesSpace;
 
 [Table(nameof(SalesProforma))]
 public class SalesProforma

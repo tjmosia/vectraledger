@@ -1,27 +1,20 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.PurchasesSpace;
-using Librebooks.Models.Entity.SalesSpace;
-
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.DocumentSpace;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.PurchasesSpace;
+using VectraBooks.Models.Entity.SalesSpace;
+
+namespace VectraBooks.Models.Entity.DocumentSpace;
 
 [Table(nameof(DocumentStatus))]
-[Index(nameof(Name), IsUnique = true)]
 public class DocumentStatus () : VersionedEntityBase()
 {
-	[Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 	public virtual int Id { get; set; }
-
-	[Required, MaxLength(50)]
 	public virtual string? Name { get; set; }
-
-	[MaxLength(6)]
 	public virtual string? Color { get; set; }
-
 	public virtual int DocumentTypeId { get; set; }
 
 	public DocumentType? DocumentType { get; set; }
@@ -30,6 +23,12 @@ public class DocumentStatus () : VersionedEntityBase()
 	{
 		builder.Entity<DocumentStatus>(options =>
 		{
+			options.HasKey(p=>p.Id).IsClustered();
+			options.Property(p => p.Id).UseIdentityColumn();
+			options.HasIndex(p => p.Name).IsUnique();
+			options.Property(p => p.Color).HasMaxLength(155);
+			options.Property(p => p.Name).IsRequired().HasMaxLength(75);
+
 			options.HasMany<PurchaseDocument>()
 				.WithOne(p => p.Status)
 				.HasForeignKey(p => p.StatusId)

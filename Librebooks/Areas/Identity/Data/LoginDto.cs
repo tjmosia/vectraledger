@@ -1,8 +1,8 @@
 ﻿using System.Security.Claims;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.IdentitySpace;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.IdentitySpace;
 
-namespace Librebooks.Areas.Identity.Data;
+namespace VectraBooks.Areas.Identity.Data;
 
 public readonly struct LoginDto (User user, UserRole[] userRoles, Claim[] claims, Company? company)
 {

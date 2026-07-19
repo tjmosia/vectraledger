@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Models.Entity.AccountingSpace;
+using VectraBooks.Models.Entity.AccountingSpace;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.PurchasesSpace;
+namespace VectraBooks.Models.Entity.PurchasesSpace;
 
 [Table(nameof(PurchaseLedgerJournal))]
 public class PurchaseLedgerJournal

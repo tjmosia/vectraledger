@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Models.Entity.GeneralSpace;
+using VectraBooks.Models.Entity.GeneralSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.CompanySpace;
+namespace VectraBooks.Models.Entity.CompanySpace;
 
 [Table(nameof(CompanyBuyer))]
 public class CompanyBuyer

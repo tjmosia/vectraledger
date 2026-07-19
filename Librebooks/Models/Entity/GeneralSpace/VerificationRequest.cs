@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Core.Constants;
-using Librebooks.Extensions.Models;
+using VectraBooks.Core.Constants;
+using VectraBooks.Extensions.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.GeneralSpace;
+namespace VectraBooks.Models.Entity.GeneralSpace;
 
 [Table(nameof(VerificationRequest))]
 public class VerificationRequest : VersionedEntityBase

@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Areas.Identity.Models
+﻿namespace VectraBooks.Areas.Identity.Models
 {
 	public readonly struct EmailVerificationTypes
 	{

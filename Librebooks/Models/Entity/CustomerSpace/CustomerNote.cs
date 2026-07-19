@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Models.Entity.GeneralSpace;
+using VectraBooks.Models.Entity.GeneralSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.CustomerSpace;
+namespace VectraBooks.Models.Entity.CustomerSpace;
 
 [Table(nameof(CustomerNote))]
 public class CustomerNote

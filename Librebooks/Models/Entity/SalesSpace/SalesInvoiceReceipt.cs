@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Core.Constants;
+using VectraBooks.Core.Constants;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.SalesSpace;
+namespace VectraBooks.Models.Entity.SalesSpace;
 
 [Table(nameof(SalesInvoiceReceipt))]
 [PrimaryKey(nameof(InvoiceId), nameof(ReceiptId))]

@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Areas.Identity.Models.Authorization
+﻿namespace VectraBooks.Areas.Identity.Models.Authorization
 {
 	public class AuthorizationModels
 	{

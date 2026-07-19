@@ -3,7 +3,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Librebooks.Areas.Identity.Services
+namespace VectraBooks.Areas.Identity.Services
 {
 	public class JwtBearerProvider
 	{

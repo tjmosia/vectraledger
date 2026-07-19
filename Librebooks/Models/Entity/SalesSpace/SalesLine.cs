@@ -1,16 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Core.Constants;
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.InventorySpace;
+using VectraBooks.Core.Constants;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.InventorySpace;
 
 using Microsoft.EntityFrameworkCore;
 
 using NuGet.Protocol.Resources;
 
-namespace Librebooks.Models.Entity.SalesSpace;
+namespace VectraBooks.Models.Entity.SalesSpace;
 
 [Table(nameof(SalesLine))]
 public class SalesLine () : VersionedEntityBase()

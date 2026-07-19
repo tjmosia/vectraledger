@@ -1,15 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Core.Constants;
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.DocumentSpace;
-using Librebooks.Models.Entity.SupplierSpace;
+using VectraBooks.Core.Constants;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.DocumentSpace;
+using VectraBooks.Models.Entity.SupplierSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.PurchasesSpace;
+namespace VectraBooks.Models.Entity.PurchasesSpace;
 
 [Table(nameof(PurchaseDocument))]
 public class PurchaseDocument () : VersionedEntityBase()

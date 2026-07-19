@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
 using FluentValidation.Results;
-using Librebooks.Models.Entity.SystemSpace;
+using VectraBooks.Models.Entity.SystemSpace;
 
-namespace Librebooks.Areas.Systems.Models;
+namespace VectraBooks.Areas.Systems.Models;
 
 public class BusinessSectorRequestModels
 {

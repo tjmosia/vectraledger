@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Areas.Systems.Providers;
+﻿namespace VectraBooks.Areas.Systems.Providers;
 
 public class SystemsManager (SystemsStore systemStore)
 	: ISystemsManager

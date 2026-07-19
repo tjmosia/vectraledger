@@ -1,8 +1,8 @@
-﻿using Librebooks.Core.Operations;
+﻿using VectraBooks.Core.Operations;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Core.EFCore;
+namespace VectraBooks.Core.EFCore;
 
 public class AppErrorDescriber
 {

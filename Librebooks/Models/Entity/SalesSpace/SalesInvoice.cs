@@ -1,13 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Models.Entity.AccountingSpace;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.CustomerSpace;
-
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.SalesSpace;
+using VectraBooks.Models.Entity.AccountingSpace;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.CustomerSpace;
+
+namespace VectraBooks.Models.Entity.SalesSpace;
 
 [Table(nameof(SalesInvoice))]
 public class SalesInvoice
@@ -22,6 +22,7 @@ public class SalesInvoice
 	public virtual SalesDocument? Document { get; set; }
 	public virtual SalesOrderInvoice? Order { get; set; }
 	public virtual ICollection<SalesInvoiceCredit>? Credits { get; set; }
+	public virtual ICollection<SalesDeliveryInvoice>? Deliveries { get; set; }
 	public virtual ICollection<SalesInvoiceReceipt>? Receipts { get; set; }
 	public virtual ICollection<SalesInvoiceWriteoff>? WriteOffs { get; set; }
 
@@ -54,6 +55,12 @@ public class SalesInvoice
 				.OnDelete(DeleteBehavior.Restrict);
 
 			options.HasMany(p => p.WriteOffs)
+				.WithOne(p => p.Invoice)
+				.HasForeignKey(p => p.InvoiceId)
+					.IsRequired()
+				.OnDelete(DeleteBehavior.Restrict);
+
+			options.HasMany(p => p.Deliveries)
 				.WithOne(p => p.Invoice)
 				.HasForeignKey(p => p.InvoiceId)
 					.IsRequired()

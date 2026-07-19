@@ -1,16 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Core.Constants;
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.BankingSpace;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.CustomerSpace;
-using Librebooks.Models.Entity.SystemSpace;
+using VectraBooks.Core.Constants;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.BankingSpace;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.CustomerSpace;
+using VectraBooks.Models.Entity.SystemSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.SalesSpace;
+namespace VectraBooks.Models.Entity.SalesSpace;
 
 [Table(nameof(SalesReceipt))]
 public class SalesReceipt () : VersionedEntityBase()

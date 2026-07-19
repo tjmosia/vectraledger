@@ -1,11 +1,11 @@
-﻿using Librebooks.Areas.Systems.Data;
-using Librebooks.Areas.Systems.Models;
-using Librebooks.Areas.Systems.Providers;
-using Librebooks.Core.Operations;
-using Librebooks.Models.Entity.SystemSpace;
+﻿using VectraBooks.Areas.Systems.Data;
+using VectraBooks.Areas.Systems.Models;
+using VectraBooks.Areas.Systems.Providers;
+using VectraBooks.Core.Operations;
+using VectraBooks.Models.Entity.SystemSpace;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Librebooks.Areas.Systems.Controllers;
+namespace VectraBooks.Areas.Systems.Controllers;
 
 [ApiController]
 public class TaxesController (SystemsStore systemsStore)

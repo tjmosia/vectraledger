@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
 using FluentValidation.Results;
-using static Librebooks.Core.Constants.ApplicationTypes;
+using static VectraBooks.Core.Constants.ApplicationTypes;
 
-namespace Librebooks.Areas.Systems.Models;
+namespace VectraBooks.Areas.Systems.Models;
 
 public class TaxAddModel
 {

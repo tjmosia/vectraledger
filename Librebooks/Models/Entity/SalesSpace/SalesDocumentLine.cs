@@ -1,13 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Core.Constants;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.InventorySpace;
-
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.SalesSpace;
+using VectraBooks.Core.Constants;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.InventorySpace;
+
+namespace VectraBooks.Models.Entity.SalesSpace;
 
 [Table(nameof(SalesDocumentLine))]
 public class SalesDocumentLine

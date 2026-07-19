@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Areas.Suppliers.Services
+﻿namespace VectraBooks.Areas.Suppliers.Services
 {
 	public class PurchasesPaymentStore
 	{

@@ -1,8 +1,8 @@
-﻿using Librebooks.Areas.Systems.Providers;
-using Librebooks.Data;
+﻿using VectraBooks.Areas.Systems.Providers;
+using VectraBooks.Data;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Librebooks.Areas.Systems.Controllers;
+namespace VectraBooks.Areas.Systems.Controllers;
 
 [Route("sys/[controller]")]
 [ApiController]

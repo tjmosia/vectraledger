@@ -1,9 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Extensions.Models;
+
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.InventorySpace;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.DocumentSpace;
+
+namespace VectraBooks.Models.Entity.InventorySpace;
 
 [Table(nameof(GoodsIssue))]
 public class GoodsIssue(): VersionedEntityBase()
@@ -18,10 +22,14 @@ public class GoodsIssue(): VersionedEntityBase()
 	public virtual int? SourceId { get; set; }
 	public virtual string? SourceType { get; set; }
     public virtual int CompanyId { get; set; }
-	public virtual bool Recorded { get; set; } = false;
+	public virtual bool Recorded { get; set; }
 	public virtual int WarehouseId { get; set; }
+	public virtual int StatusId { get; set; }
 
-    public ICollection<GoodsIssueLine>? Items { get; set; }
+	public DocumentStatus? Status { get; set; }
+	public Company? Company { get; set; }
+
+	public ICollection<GoodsIssueLine>? Items { get; set; }
 
 	public static void OnModelCreating(ModelBuilder modelBuilder)
 	{
@@ -31,6 +39,18 @@ public class GoodsIssue(): VersionedEntityBase()
 			options.Property(p => p.Description).HasMaxLength(255);
 			options.Property(p => p.Reference).HasMaxLength(20);
 			options.Property(p => p.Number).HasMaxLength(75);
+
+			options.HasOne(p => p.Status)
+				.WithMany()
+				.HasForeignKey(p => p.StatusId)
+					.IsRequired()
+				.OnDelete(DeleteBehavior.Restrict);
+
+			options.HasOne(p => p.Company)
+				.WithMany()
+				.HasForeignKey(p => p.CompanyId)
+					.IsRequired()
+				.OnDelete(DeleteBehavior.Cascade);
 		});
 	}
 }

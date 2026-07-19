@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Areas.Companies.Controllers;
+﻿namespace VectraBooks.Areas.Companies.Controllers;
 
 public readonly struct CompanyCookieKeys
 {

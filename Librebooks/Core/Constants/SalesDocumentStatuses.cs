@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Core.Types.PurchasesAndSales;
+﻿namespace VectraBooks.Core.Types.PurchasesAndSales;
 
 public readonly struct SalesDocumentStatuses
 {

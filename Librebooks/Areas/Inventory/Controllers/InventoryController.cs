@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Librebooks.Areas.Inventory.Controllers
+namespace VectraBooks.Areas.Inventory.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

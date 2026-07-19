@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.IdentitySpace;
+namespace VectraBooks.Models.Entity.IdentitySpace;
 
 public class UserRole : IdentityUserRole<int>
 {

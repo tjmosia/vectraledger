@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Core.Constants;
-using Librebooks.Models.Entity.CompanySpace;
+using VectraBooks.Core.Constants;
+using VectraBooks.Models.Entity.CompanySpace;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.AccountingSpace;
+namespace VectraBooks.Models.Entity.AccountingSpace;
 
 [Table(nameof(CompanyLedgerAccount))]
 public class CompanyLedgerAccount

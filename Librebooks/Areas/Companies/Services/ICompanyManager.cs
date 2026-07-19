@@ -1,10 +1,10 @@
-﻿using Librebooks.Core.Operations;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.IdentitySpace;
-using Librebooks.Models.Entity.SystemSpace;
+﻿using VectraBooks.Core.Operations;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.IdentitySpace;
+using VectraBooks.Models.Entity.SystemSpace;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace Librebooks.Areas.Companies.Services;
+namespace VectraBooks.Areas.Companies.Services;
 
 public interface ICompanyManager
 {

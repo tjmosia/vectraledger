@@ -1,13 +1,13 @@
-﻿using Librebooks.Core.Constants;
-using Librebooks.Core.EFCore;
-using Librebooks.Core.Operations;
-using Librebooks.Core.Util;
-using Librebooks.Data;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.SystemSpace;
+﻿using VectraBooks.Core.Constants;
+using VectraBooks.Core.EFCore;
+using VectraBooks.Core.Operations;
+using VectraBooks.Core.Util;
+using VectraBooks.Data;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.SystemSpace;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Areas.Systems.Providers;
+namespace VectraBooks.Areas.Systems.Providers;
 
 public class SystemsStore (AppDbContext context, ILogger<SystemsStore> logger) : DbStoreBase(context), ISystemsStore
 {

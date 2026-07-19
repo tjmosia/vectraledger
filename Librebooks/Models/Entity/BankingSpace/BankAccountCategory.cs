@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Extensions.Models;
+using VectraBooks.Extensions.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.BankingSpace;
+namespace VectraBooks.Models.Entity.BankingSpace;
 
 [Table(nameof(BankAccountCategory))]
 public class BankAccountCategory () : VersionedEntityBase()

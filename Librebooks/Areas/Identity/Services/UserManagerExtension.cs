@@ -1,12 +1,12 @@
 ﻿using System.Security.Claims;
-using Librebooks.Data;
-using Librebooks.Models.Entity.IdentitySpace;
+using VectraBooks.Data;
+using VectraBooks.Models.Entity.IdentitySpace;
 
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace Librebooks.Areas.Identity.Services;
+namespace VectraBooks.Areas.Identity.Services;
 
 public class UserManagerExtension : UserManager<User>
 {

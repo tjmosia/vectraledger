@@ -1,7 +1,7 @@
-﻿using Librebooks.Areas.Identity.Services;
+﻿using VectraBooks.Areas.Identity.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Librebooks.Extensions.Mvc
+namespace VectraBooks.Extensions.Mvc
 {
 	[Route("api/[controller]")]
 	[ApiController]

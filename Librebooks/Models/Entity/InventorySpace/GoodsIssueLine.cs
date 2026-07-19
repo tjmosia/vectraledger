@@ -1,10 +1,12 @@
-﻿using Librebooks.Core.Constants;
-using Librebooks.Models.Entity.AccountingSpace;
-using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Librebooks.Models.Entity.InventorySpace;
+using Microsoft.EntityFrameworkCore;
+
+using VectraBooks.Core.Constants;
+using VectraBooks.Models.Entity.AccountingSpace;
+
+namespace VectraBooks.Models.Entity.InventorySpace;
 
 [Table(nameof(GoodsIssueLine))]
 public class GoodsIssueLine

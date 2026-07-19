@@ -1,7 +1,7 @@
 ﻿using System.Security.Claims;
 using System.Text;
 
-using Librebooks.Models.Entity.IdentitySpace;
+using VectraBooks.Models.Entity.IdentitySpace;
 
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
@@ -9,7 +9,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Librebooks.Areas.Identity.Services
+namespace VectraBooks.Areas.Identity.Services
 {
 	public class SignInManagerExtension : SignInManager<User>
 	{

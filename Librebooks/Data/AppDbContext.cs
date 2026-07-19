@@ -1,20 +1,20 @@
-using Librebooks.Models.Entity.AccountingSpace;
-using Librebooks.Models.Entity.BankingSpace;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.CustomerSpace;
-using Librebooks.Models.Entity.DocumentSpace;
-using Librebooks.Models.Entity.GeneralSpace;
-using Librebooks.Models.Entity.IdentitySpace;
-using Librebooks.Models.Entity.InventorySpace;
-using Librebooks.Models.Entity.PurchasesSpace;
-using Librebooks.Models.Entity.SalesSpace;
-using Librebooks.Models.Entity.SupplierSpace;
-using Librebooks.Models.Entity.SystemSpace;
+using VectraBooks.Models.Entity.AccountingSpace;
+using VectraBooks.Models.Entity.BankingSpace;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.CustomerSpace;
+using VectraBooks.Models.Entity.DocumentSpace;
+using VectraBooks.Models.Entity.GeneralSpace;
+using VectraBooks.Models.Entity.IdentitySpace;
+using VectraBooks.Models.Entity.InventorySpace;
+using VectraBooks.Models.Entity.PurchasesSpace;
+using VectraBooks.Models.Entity.SalesSpace;
+using VectraBooks.Models.Entity.SupplierSpace;
+using VectraBooks.Models.Entity.SystemSpace;
 
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Data;
+namespace VectraBooks.Data;
 
 public class AppDbContext :
 	IdentityDbContext<User, Role, int, UserClaim, UserRole, UserLogin, RoleClaim, UserToken>
@@ -106,7 +106,7 @@ public class AppDbContext :
          * Document Space
          ************************************************************************************************/
 	public DbSet<DocumentSetup>? DocumentSetups { get; set; }
-	public DbSet<DocumentStatus>? DocumentStatuses { get; set; }
+	public DbSet<Models.Entity.DocumentSpace.DocumentStatus>? DocumentStatuses { get; set; }
 	public DbSet<DocumentPrintTemplate>? DocumentPrintTemplates { get; set; }
 	public DbSet<DocumentCompanyInfo>? DocumentCompanyDetails { get; set; }
 	public DbSet<DocumentType>? DocumentTypes { get; set; }
@@ -196,7 +196,7 @@ public class AppDbContext :
 		DocumentCompanyInfo.OnModelCreating(builder);
 		DocumentPrintTemplate.OnModelCreating(builder);
 		DocumentSetup.OnModelCreating(builder);
-		DocumentStatus.OnModelCreating(builder);
+		Models.Entity.DocumentSpace.DocumentStatus.OnModelCreating(builder);
 		DocumentType.OnModelCreating(builder);
 
 		/************************************************************************************************

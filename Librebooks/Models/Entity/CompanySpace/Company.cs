@@ -1,17 +1,17 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.AccountingSpace;
-using Librebooks.Models.Entity.CustomerSpace;
-using Librebooks.Models.Entity.DocumentSpace;
-using Librebooks.Models.Entity.InventorySpace;
-using Librebooks.Models.Entity.SupplierSpace;
-using Librebooks.Models.Entity.SystemSpace;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.AccountingSpace;
+using VectraBooks.Models.Entity.CustomerSpace;
+using VectraBooks.Models.Entity.DocumentSpace;
+using VectraBooks.Models.Entity.InventorySpace;
+using VectraBooks.Models.Entity.SupplierSpace;
+using VectraBooks.Models.Entity.SystemSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.CompanySpace;
+namespace VectraBooks.Models.Entity.CompanySpace;
 
 [Table(nameof(Company))]
 public class Company : VersionedEntityBase

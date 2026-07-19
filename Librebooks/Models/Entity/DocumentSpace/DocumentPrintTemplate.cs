@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Extensions.Models;
+using VectraBooks.Extensions.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.DocumentSpace
+namespace VectraBooks.Models.Entity.DocumentSpace
 {
 	[Table(nameof(DocumentPrintTemplate))]
 	public class DocumentPrintTemplate () : VersionedEntityBase()

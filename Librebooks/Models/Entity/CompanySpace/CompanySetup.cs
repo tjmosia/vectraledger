@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.CustomerSpace;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.CustomerSpace;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.CompanySpace;
+namespace VectraBooks.Models.Entity.CompanySpace;
 
 [Table(nameof(CompanySetup))]
 public class CompanySetup () : VersionedEntityBase()

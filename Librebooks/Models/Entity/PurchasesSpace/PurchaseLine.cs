@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Core.Constants;
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.InventorySpace;
+using VectraBooks.Core.Constants;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.InventorySpace;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.PurchasesSpace;
+namespace VectraBooks.Models.Entity.PurchasesSpace;
 
 [Table(nameof(PurchaseLine))]
 public class PurchaseLine () : VersionedEntityBase()

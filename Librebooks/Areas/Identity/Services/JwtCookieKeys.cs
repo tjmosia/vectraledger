@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Areas.Identity.Services
+﻿namespace VectraBooks.Areas.Identity.Services
 {
 	public static class JwtTokenKeys
 	{

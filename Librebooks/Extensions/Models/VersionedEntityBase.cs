@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Librebooks.Extensions.Models
+namespace VectraBooks.Extensions.Models
 {
     public abstract class VersionedEntityBase
     {

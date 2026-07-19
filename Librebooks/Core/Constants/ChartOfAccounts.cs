@@ -1,6 +1,6 @@
 ﻿using Microsoft.Identity.Client;
 
-namespace Librebooks.Core.Constants;
+namespace VectraBooks.Core.Constants;
 
 public readonly struct ChartOfAccountsnamespace 
 {

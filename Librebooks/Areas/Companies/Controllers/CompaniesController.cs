@@ -1,16 +1,16 @@
-﻿using Librebooks.Areas.Companies.Data;
-using Librebooks.Areas.Companies.Models;
-using Librebooks.Areas.Companies.Services;
-using Librebooks.Areas.Identity.Services;
-using Librebooks.Areas.Systems.Providers;
-using Librebooks.Core.Operations;
-using Librebooks.Extensions.Mvc;
-using Librebooks.Models.Entity.CompanySpace;
+﻿using VectraBooks.Areas.Companies.Data;
+using VectraBooks.Areas.Companies.Models;
+using VectraBooks.Areas.Companies.Services;
+using VectraBooks.Areas.Identity.Services;
+using VectraBooks.Areas.Systems.Providers;
+using VectraBooks.Core.Operations;
+using VectraBooks.Extensions.Mvc;
+using VectraBooks.Models.Entity.CompanySpace;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.WebSockets;
 
-namespace Librebooks.Areas.Companies.Controllers;
+namespace VectraBooks.Areas.Companies.Controllers;
 
 [Authorize]
 [ApiController]

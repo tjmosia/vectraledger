@@ -2,7 +2,7 @@
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.SalesSpace;
+namespace VectraBooks.Models.Entity.SalesSpace;
 
 [Table(nameof(SalesOrderInvoice))]
 public class SalesOrderInvoice

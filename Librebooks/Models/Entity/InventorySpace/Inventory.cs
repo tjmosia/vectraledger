@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Core.Constants;
-using Librebooks.Extensions.Models;
-
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.InventorySpace;
+using VectraBooks.Core.Constants;
+using VectraBooks.Extensions.Models;
+
+namespace VectraBooks.Models.Entity.InventorySpace;
 
 [Table(nameof(Inventory))]
 public class Inventory () : VersionedEntityBase()
@@ -27,7 +27,7 @@ public class Inventory () : VersionedEntityBase()
 
 	public Item? Item { get; set; }
 	public Warehouse? Warehouse { get; set; }
-	public InventoryAdjustment? Adjustments { get; set; }
+	public ICollection<InventoryAdjustmentLine>? Adjustments { get; set; }
 	public WarehouseBin? Bin { get; set; }
 	public WarehouseShelve? Shelve { get; set; }
 	public WarehouseColumn? Bay { get; set; }
@@ -48,7 +48,6 @@ public class Inventory () : VersionedEntityBase()
 				.IsUnique()
 				.IsClustered();
 
-			// Properties
 			options.Property(x => x.QuantityOnHand)
 				.HasColumnType(ColumnTypes.NUMBER);
 
@@ -69,13 +68,6 @@ public class Inventory () : VersionedEntityBase()
 
 			options.Property(x => x.AverageCost)
 				.HasColumnType(ColumnTypes.MONETARY);
-
-			// Relationships
-			options.HasOne(p => p.Adjustments)
-				.WithOne(p => p.Inventory)
-				.HasForeignKey<InventoryAdjustment>(p => p.InventoryId)
-					.IsRequired()
-				.OnDelete(DeleteBehavior.Restrict);
 
 			options.HasOne(p => p.Shelve)
 				.WithOne()

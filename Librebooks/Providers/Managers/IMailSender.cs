@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Providers.Managers
+﻿namespace VectraBooks.Providers.Managers
 {
 	public interface IMailSender
 	{

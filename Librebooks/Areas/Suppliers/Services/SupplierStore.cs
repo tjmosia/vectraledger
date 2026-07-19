@@ -1,6 +1,6 @@
-﻿using Librebooks.Data;
+﻿using VectraBooks.Data;
 
-namespace Librebooks.Areas.Suppliers.Services;
+namespace VectraBooks.Areas.Suppliers.Services;
 
 public class SupplierStore (AppDbContext context, ILogger<SupplierStore> logger)
 {

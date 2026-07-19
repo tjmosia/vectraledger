@@ -1,6 +1,6 @@
-﻿using Librebooks.Models.Entity.CompanySpace;
+﻿using VectraBooks.Models.Entity.CompanySpace;
 
-namespace Librebooks.Areas.Companies.Data;
+namespace VectraBooks.Areas.Companies.Data;
 
 public readonly struct CompanySummaryData (Company company)
 {

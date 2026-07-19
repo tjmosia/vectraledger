@@ -1,9 +1,9 @@
-﻿using Librebooks.Core.Operations;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.CustomerSpace;
-using Librebooks.Models.Entity.GeneralSpace;
+﻿using VectraBooks.Core.Operations;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.CustomerSpace;
+using VectraBooks.Models.Entity.GeneralSpace;
 
-namespace Librebooks.Areas.Customers.Providers;
+namespace VectraBooks.Areas.Customers.Providers;
 
 public interface ICustomerStore
 {

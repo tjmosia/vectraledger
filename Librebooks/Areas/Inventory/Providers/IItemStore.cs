@@ -1,8 +1,8 @@
-﻿using Librebooks.Core.Operations;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.InventorySpace;
+﻿using VectraBooks.Core.Operations;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.InventorySpace;
 
-namespace Librebooks.Areas.Inventory.Providers;
+namespace VectraBooks.Areas.Inventory.Providers;
 
 public interface IItemStore
 {

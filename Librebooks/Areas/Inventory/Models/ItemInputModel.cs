@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Librebooks.Areas.Inventory.Models
+namespace VectraBooks.Areas.Inventory.Models
 {
     public class ItemInputModel
     {

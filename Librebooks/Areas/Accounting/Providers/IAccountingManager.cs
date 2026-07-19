@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Areas.Accounting.Providers;
+﻿namespace VectraBooks.Areas.Accounting.Providers;
 
 public interface IAccountingManager
 {

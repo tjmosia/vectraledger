@@ -1,11 +1,11 @@
-﻿using Librebooks.Core.EFCore;
-using Librebooks.Core.Operations;
-using Librebooks.Data;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.DocumentSpace;
+﻿using VectraBooks.Core.EFCore;
+using VectraBooks.Core.Operations;
+using VectraBooks.Data;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.DocumentSpace;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Providers.Stores;
+namespace VectraBooks.Providers.Stores;
 
 public class DocumentSetupStore (AppDbContext context, ILogger<DocumentSetupStore> logger)
 {

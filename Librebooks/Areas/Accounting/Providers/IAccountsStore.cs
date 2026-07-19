@@ -1,8 +1,8 @@
-﻿using Librebooks.Core.Operations;
-using Librebooks.Models.Entity.AccountingSpace;
-using Librebooks.Models.Entity.CompanySpace;
+﻿using VectraBooks.Core.Operations;
+using VectraBooks.Models.Entity.AccountingSpace;
+using VectraBooks.Models.Entity.CompanySpace;
 
-namespace Librebooks.Areas.Accounting.Providers;
+namespace VectraBooks.Areas.Accounting.Providers;
 
 public interface IAccountsStore
 {

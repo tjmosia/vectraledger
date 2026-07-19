@@ -1,18 +1,20 @@
-﻿using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.CompanySpace;
-using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Librebooks.Models.Entity.AccountingSpace;
+using Microsoft.EntityFrameworkCore;
+
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.CompanySpace;
+
+namespace VectraBooks.Models.Entity.AccountingSpace;
 
 [Table(nameof(PostingRule))]
 public class PostingRule(): VersionedEntityBase()
 {
-	[Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 	public virtual int Id { get; set; }
 	public virtual int GroupId { get; set;  }
 	public virtual string? Reason { get; set;  }
+	public virtual string? ReasonCode { get; set; }
 	public virtual int CreditAccountId { get; set; }
 	public virtual int DebitAccountId { get; set; }
 
@@ -22,11 +24,23 @@ public class PostingRule(): VersionedEntityBase()
 
 	public static void OnModelCreating(ModelBuilder modelBuilder)
 	{
-		modelBuilder.Entity<PostingRule>( entity =>
+		modelBuilder.Entity<PostingRule>(entity =>
 		{
+			entity.HasKey(x => x.Id);
+			entity.Property(p => p.Id).UseIdentityColumn();
 			entity.HasIndex(p => new { p.DebitAccountId, p.CreditAccountId, p.Reason, }).IsUnique();
-			entity.Property(p => p.Group).IsRequired().HasMaxLength(155);
-					
+			entity.Property(p => p.Reason).IsRequired().HasMaxLength(155);
+			entity.Property(p => p.ReasonCode).IsRequired().HasMaxLength(155);
+
+			entity.HasOne(p => p.DebitAccount)
+				.WithMany()
+				.HasForeignKey(p => p.DebitAccountId)
+				.OnDelete(DeleteBehavior.Restrict);
+
+			entity.HasOne(p => p.CreditAccount)
+				.WithMany()
+				.HasForeignKey(p => p.CreditAccountId)
+				.OnDelete(DeleteBehavior.Restrict);
 		});
 	}
 }

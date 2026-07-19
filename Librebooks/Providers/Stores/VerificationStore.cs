@@ -1,9 +1,9 @@
-﻿using Librebooks.Data;
-using Librebooks.Models.Entity.GeneralSpace;
-using Librebooks.Providers.Stores;
+﻿using VectraBooks.Data;
+using VectraBooks.Models.Entity.GeneralSpace;
+using VectraBooks.Providers.Stores;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Providers;
+namespace VectraBooks.Providers;
 
 public class VerificationStore (AppDbContext context)
 	: StoreBase(context)

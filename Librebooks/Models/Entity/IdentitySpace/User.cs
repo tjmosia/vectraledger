@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.CompanySpace;
 
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.IdentitySpace;
+namespace VectraBooks.Models.Entity.IdentitySpace;
 
 public class User : IdentityUser<int>
 {

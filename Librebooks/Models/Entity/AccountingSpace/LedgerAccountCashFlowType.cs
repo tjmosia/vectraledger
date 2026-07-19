@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Extensions.Models;
+using VectraBooks.Extensions.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.AccountingSpace;
+namespace VectraBooks.Models.Entity.AccountingSpace;
 
 [Table(nameof(LedgerAccountCashFlowType))]
 [Index(nameof(LedgerAccountCashFlowType), IsUnique = true)]

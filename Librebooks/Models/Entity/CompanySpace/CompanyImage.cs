@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.DocumentSpace;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.DocumentSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.CompanySpace;
+namespace VectraBooks.Models.Entity.CompanySpace;
 
 [Table(nameof(CompanyImage))]
 public class CompanyImage () : VersionedEntityBase()

@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Core.Constants;
-using Librebooks.Models.Entity.CompanySpace;
+using VectraBooks.Core.Constants;
+using VectraBooks.Models.Entity.CompanySpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.SupplierSpace;
+namespace VectraBooks.Models.Entity.SupplierSpace;
 
 [Table(nameof(Supplier))]
 public class Supplier

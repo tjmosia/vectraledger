@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.CompanySpace;
+namespace VectraBooks.Models.Entity.CompanySpace;
 
 [Table(nameof(CompanyLogo))]
 public class CompanyLogo ()

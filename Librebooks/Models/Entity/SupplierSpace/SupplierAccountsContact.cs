@@ -2,7 +2,7 @@
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.SupplierSpace
+namespace VectraBooks.Models.Entity.SupplierSpace
 {
 	[Table(nameof(SupplierAccountsContact))]
 	public class SupplierAccountsContact

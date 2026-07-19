@@ -1,7 +1,7 @@
-﻿using Librebooks.Data;
-using Librebooks.Providers.Stores;
+﻿using VectraBooks.Data;
+using VectraBooks.Providers.Stores;
 
-namespace Librebooks.Areas.Accounting.Providers;
+namespace VectraBooks.Areas.Accounting.Providers;
 
 public class AccountingManager (AppDbContext context) : StoreBase(context), IAccountingManager
 {

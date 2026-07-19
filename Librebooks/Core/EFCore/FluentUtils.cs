@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Librebooks.Core.EFCore;
+namespace VectraBooks.Core.EFCore;
 
 public class FluentUtils<TModel, TKey> where TModel : class where TKey : notnull
 {

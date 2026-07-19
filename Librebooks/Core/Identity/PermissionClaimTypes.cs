@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Core.Identity;
+﻿namespace VectraBooks.Core.Identity;
 
 public readonly struct PermissionClaimTypes
 {

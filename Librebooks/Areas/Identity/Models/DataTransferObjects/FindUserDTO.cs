@@ -1,5 +1,5 @@
-﻿using Librebooks.Models.Entity.IdentitySpace;
-namespace Librebooks.Areas.Identity.Models.DataTransferObjects;
+﻿using VectraBooks.Models.Entity.IdentitySpace;
+namespace VectraBooks.Areas.Identity.Models.DataTransferObjects;
 
 public readonly struct FindUserDTO (User user)
 {

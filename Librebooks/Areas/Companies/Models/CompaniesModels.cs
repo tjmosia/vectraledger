@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using FluentValidation.Results;
 
-namespace Librebooks.Areas.Companies.Models;
+namespace VectraBooks.Areas.Companies.Models;
 
 public class CompaniesModels
 {

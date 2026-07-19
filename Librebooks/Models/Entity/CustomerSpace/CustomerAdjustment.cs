@@ -1,14 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Core.Constants;
-using Librebooks.Models.Entity.AccountingSpace;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.SystemSpace;
+using VectraBooks.Core.Constants;
+using VectraBooks.Models.Entity.AccountingSpace;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.SystemSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.CustomerSpace;
+namespace VectraBooks.Models.Entity.CustomerSpace;
 
 [Table(nameof(CustomerAdjustment))]
 public class CustomerAdjustment

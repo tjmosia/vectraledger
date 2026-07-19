@@ -1,8 +1,8 @@
-﻿using Librebooks.Core.EFCore;
+﻿using VectraBooks.Core.EFCore;
 
 using Microsoft.AspNetCore.Identity;
 
-namespace Librebooks.Core.Operations
+namespace VectraBooks.Core.Operations
 {
 	public class TransactionError : IdentityError
 	{

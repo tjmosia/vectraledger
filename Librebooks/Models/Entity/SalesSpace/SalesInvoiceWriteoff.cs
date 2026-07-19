@@ -1,13 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Core.Constants;
-using Librebooks.Models.Entity;
-using Librebooks.Models.Entity.CustomerSpace;
+using VectraBooks.Core.Constants;
+using VectraBooks.Models.Entity;
+using VectraBooks.Models.Entity.CustomerSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.SalesSpace;
+namespace VectraBooks.Models.Entity.SalesSpace;
 
 [Table(nameof(SalesInvoiceWriteoff))]
 public class SalesInvoiceWriteoff

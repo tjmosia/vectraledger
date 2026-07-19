@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.CompanySpace;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.CompanySpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.AccountingSpace;
+namespace VectraBooks.Models.Entity.AccountingSpace;
 
 [Table(nameof(Journal))]
 public class Journal () : VersionedEntityBase()

@@ -1,9 +1,9 @@
-﻿using Librebooks.Core.Constants;
-using Librebooks.Core.Operations;
-using Librebooks.Data;
+﻿using VectraBooks.Core.Constants;
+using VectraBooks.Core.Operations;
+using VectraBooks.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Providers.Stores;
+namespace VectraBooks.Providers.Stores;
 
 public abstract class StoreBase (AppDbContext context)
 {

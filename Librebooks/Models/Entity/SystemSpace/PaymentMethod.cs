@@ -1,14 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.BankingSpace;
-using Librebooks.Models.Entity.PurchasesSpace;
-using Librebooks.Models.Entity.SalesSpace;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.BankingSpace;
+using VectraBooks.Models.Entity.PurchasesSpace;
+using VectraBooks.Models.Entity.SalesSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.SystemSpace
+namespace VectraBooks.Models.Entity.SystemSpace
 {
 	[Table(nameof(PaymentMethod))]
 	[Index(nameof(Name), IsUnique = true)]

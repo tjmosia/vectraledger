@@ -1,10 +1,10 @@
-﻿using Librebooks.Areas.Systems.Data;
-using Librebooks.Areas.Systems.Models;
-using Librebooks.Areas.Systems.Providers;
-using Librebooks.Core.Operations;
+﻿using VectraBooks.Areas.Systems.Data;
+using VectraBooks.Areas.Systems.Models;
+using VectraBooks.Areas.Systems.Providers;
+using VectraBooks.Core.Operations;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Librebooks.Areas.Systems.Controllers;
+namespace VectraBooks.Areas.Systems.Controllers;
 
 [ApiController]
 public class DateFormatsController (ISystemsStore store) : ControllerBase

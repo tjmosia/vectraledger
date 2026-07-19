@@ -1,8 +1,8 @@
-using Librebooks.Core.Operations;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.SystemSpace;
+using VectraBooks.Core.Operations;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.SystemSpace;
 
-namespace Librebooks.Areas.Systems.Providers
+namespace VectraBooks.Areas.Systems.Providers
 {
 	public interface ISystemsStore
 	{

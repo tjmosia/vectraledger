@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Core.Util
+﻿namespace VectraBooks.Core.Util
 {
     public abstract class ControllerUtils
     {

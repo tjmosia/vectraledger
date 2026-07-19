@@ -1,14 +1,14 @@
-﻿using Librebooks.Core.EFCore;
-using Librebooks.Core.Operations;
-using Librebooks.Data;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.InventorySpace;
-using Librebooks.Providers.Stores;
+﻿using VectraBooks.Core.EFCore;
+using VectraBooks.Core.Operations;
+using VectraBooks.Data;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.InventorySpace;
+using VectraBooks.Providers.Stores;
 using Microsoft.EntityFrameworkCore;
 using System.Runtime.InteropServices;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
-namespace Librebooks.Areas.Inventory.Providers;
+namespace VectraBooks.Areas.Inventory.Providers;
 
 public sealed class ItemStore (AppDbContext context, ILogger<ItemStore> logger) : DbStoreBase(context), IItemStore
 {

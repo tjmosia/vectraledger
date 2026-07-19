@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.CompanySpace;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.CompanySpace;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.SupplierSpace;
+namespace VectraBooks.Models.Entity.SupplierSpace;
 
 [Table(nameof(SupplierCategory))]
 public class SupplierCategory () : VersionedEntityBase()

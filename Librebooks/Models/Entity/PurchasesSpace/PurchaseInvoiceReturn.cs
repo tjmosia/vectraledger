@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.PurchasesSpace
+namespace VectraBooks.Models.Entity.PurchasesSpace
 {
 	[Table(nameof(PurchaseInvoiceReturn))]
 	public class PurchaseInvoiceReturn

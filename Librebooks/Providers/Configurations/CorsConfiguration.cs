@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Providers.Configurations
+﻿namespace VectraBooks.Providers.Configurations
 {
     public class CorsConfiguration
     {

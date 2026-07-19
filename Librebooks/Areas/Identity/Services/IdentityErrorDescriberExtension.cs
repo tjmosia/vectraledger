@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Librebooks.Areas.Identity.Services
+namespace VectraBooks.Areas.Identity.Services
 {
 	public class IdentityErrorDescriberExtension : IdentityErrorDescriber
 	{

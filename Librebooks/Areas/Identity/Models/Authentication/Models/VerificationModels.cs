@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using FluentValidation.Results;
 
-namespace Librebooks.Areas.Identity.Models.Authentication.Models;
+namespace VectraBooks.Areas.Identity.Models.Authentication.Models;
 
 public class VerificationModels
 {

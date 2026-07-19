@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Core.EFCore
+﻿namespace VectraBooks.Core.EFCore
 {
     public struct DbEngineErrorsCodes
     {

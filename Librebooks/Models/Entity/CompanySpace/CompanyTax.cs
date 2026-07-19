@@ -1,15 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Models.Entity.AccountingSpace;
-using Librebooks.Models.Entity.InventorySpace;
-using Librebooks.Models.Entity.PurchasesSpace;
-using Librebooks.Models.Entity.SalesSpace;
-using Librebooks.Models.Entity.SystemSpace;
+using VectraBooks.Models.Entity.AccountingSpace;
+using VectraBooks.Models.Entity.InventorySpace;
+using VectraBooks.Models.Entity.PurchasesSpace;
+using VectraBooks.Models.Entity.SalesSpace;
+using VectraBooks.Models.Entity.SystemSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.CompanySpace;
+namespace VectraBooks.Models.Entity.CompanySpace;
 
 [Table(nameof(CompanyTax))]
 public class CompanyTax ()

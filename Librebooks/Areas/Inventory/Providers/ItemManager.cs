@@ -1,4 +1,4 @@
-﻿namespace Librebooks.Areas.Inventory.Providers
+﻿namespace VectraBooks.Areas.Inventory.Providers
 {
 	public class ItemManager
 		(ItemStore? store, ILogger<ItemManager> logger) : IItemManager

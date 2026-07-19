@@ -1,11 +1,11 @@
-﻿using Librebooks.Core.EFCore;
-using Librebooks.Core.Operations;
-using Librebooks.Data;
-using Librebooks.Models.Entity.AccountingSpace;
-using Librebooks.Models.Entity.CompanySpace;
+﻿using VectraBooks.Core.EFCore;
+using VectraBooks.Core.Operations;
+using VectraBooks.Data;
+using VectraBooks.Models.Entity.AccountingSpace;
+using VectraBooks.Models.Entity.CompanySpace;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Areas.Accounting.Providers;
+namespace VectraBooks.Areas.Accounting.Providers;
 
 public class AccountsStore (AppDbContext context, ILogger<AccountsStore> logger) : DbStoreBase(context), IAccountsStore
 {

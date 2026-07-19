@@ -1,7 +1,7 @@
-﻿using Librebooks.Core.Operations;
-using Librebooks.Models.Entity.GeneralSpace;
+﻿using VectraBooks.Core.Operations;
+using VectraBooks.Models.Entity.GeneralSpace;
 
-namespace Librebooks.Providers.Managers
+namespace VectraBooks.Providers.Managers
 {
 	public interface IVerificationManager
 	{

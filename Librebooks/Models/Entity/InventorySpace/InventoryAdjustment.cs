@@ -1,12 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Core.Constants;
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.CompanySpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.InventorySpace;
+using VectraBooks.Core.Constants;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.DocumentSpace;
+
+namespace VectraBooks.Models.Entity.InventorySpace;
 
 [Table(nameof(InventoryAdjustment))]
 public class InventoryAdjustment () : VersionedEntityBase()
@@ -15,12 +17,13 @@ public class InventoryAdjustment () : VersionedEntityBase()
 	public virtual int Id { get; set; }
 	public virtual DateOnly Date { get; set; }
 	public virtual string? Number { get; set; }
-    public virtual string? Description { get; set; }
 	public virtual bool Posted { get; set; }
     public virtual int CompanyId { get; set; }
+    public virtual int StatusId { get; set; }
+	public virtual string? Message { get; set; }
 
-	public virtual Company? Company { get; set; }
-    public virtual Inventory? Inventory { get; set; }
+	public DocumentStatus? Status { get; set; }
+	public Company? Company { get; set; }
 	public ICollection<InventoryAdjustmentLine>? Lines { get; set; }
 
     public static void OnModelCreating (ModelBuilder builder)
@@ -28,7 +31,7 @@ public class InventoryAdjustment () : VersionedEntityBase()
 		builder.Entity<InventoryAdjustment>(options =>
 		{
 			options.HasIndex(p => new { p.CompanyId, p.Id }).IsClustered();
-			options.Property(p => p.Description).HasMaxLength(255);
+			options.Property(p => p.Message).HasMaxLength(255);
 			options.Property(p => p.Number).IsRequired().HasMaxLength(50);
 
 			options.HasOne(p => p.Company)
@@ -42,6 +45,12 @@ public class InventoryAdjustment () : VersionedEntityBase()
 				.HasForeignKey(p => p.AdjustmentId)
 					.IsRequired()
 				.OnDelete(DeleteBehavior.Cascade);
+
+			options.HasOne(p => p.Status)
+				.WithMany()
+				.HasForeignKey(p => p.StatusId)
+					.IsRequired()
+				.OnDelete(DeleteBehavior.Restrict);
 		});
 	}
 }

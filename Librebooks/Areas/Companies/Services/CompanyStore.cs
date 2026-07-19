@@ -1,20 +1,20 @@
-﻿using Librebooks.Areas.Systems.Providers;
-using Librebooks.Core.EFCore;
-using Librebooks.Core.Operations;
-using Librebooks.Data;
-using Librebooks.Models.Entity.BankingSpace;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.CustomerSpace;
-using Librebooks.Models.Entity.DocumentSpace;
-using Librebooks.Models.Entity.GeneralSpace;
-using Librebooks.Models.Entity.IdentitySpace;
-using Librebooks.Models.Entity.InventorySpace;
-using Librebooks.Models.Entity.SupplierSpace;
-using Librebooks.Models.Entity.SystemSpace;
+﻿using VectraBooks.Areas.Systems.Providers;
+using VectraBooks.Core.EFCore;
+using VectraBooks.Core.Operations;
+using VectraBooks.Data;
+using VectraBooks.Models.Entity.BankingSpace;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.CustomerSpace;
+using VectraBooks.Models.Entity.DocumentSpace;
+using VectraBooks.Models.Entity.GeneralSpace;
+using VectraBooks.Models.Entity.IdentitySpace;
+using VectraBooks.Models.Entity.InventorySpace;
+using VectraBooks.Models.Entity.SupplierSpace;
+using VectraBooks.Models.Entity.SystemSpace;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.Json;
 
-namespace Librebooks.Areas.Companies.Services;
+namespace VectraBooks.Areas.Companies.Services;
 
 public partial class CompanyStore(AppDbContext context, ILogger<CompanyStore> logger)
     : DbStoreBase(context), ICompanyStore

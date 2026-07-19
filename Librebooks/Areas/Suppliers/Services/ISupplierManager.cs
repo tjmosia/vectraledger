@@ -1,9 +1,9 @@
-﻿using Librebooks.Core.Operations;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.PurchasesSpace;
-using Librebooks.Models.Entity.SupplierSpace;
+﻿using VectraBooks.Core.Operations;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.PurchasesSpace;
+using VectraBooks.Models.Entity.SupplierSpace;
 
-namespace Librebooks.Areas.Suppliers.Services
+namespace VectraBooks.Areas.Suppliers.Services
 {
     public interface ISupplierManager
     {

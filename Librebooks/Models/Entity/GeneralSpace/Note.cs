@@ -1,16 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.AccountingSpace;
-using Librebooks.Models.Entity.CustomerSpace;
-using Librebooks.Models.Entity.IdentitySpace;
-using Librebooks.Models.Entity.PurchasesSpace;
-using Librebooks.Models.Entity.SalesSpace;
-using Librebooks.Models.Entity.SupplierSpace;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.AccountingSpace;
+using VectraBooks.Models.Entity.CustomerSpace;
+using VectraBooks.Models.Entity.IdentitySpace;
+using VectraBooks.Models.Entity.PurchasesSpace;
+using VectraBooks.Models.Entity.SalesSpace;
+using VectraBooks.Models.Entity.SupplierSpace;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.GeneralSpace
+namespace VectraBooks.Models.Entity.GeneralSpace
 {
 	[Table(nameof(Note))]
 	public class Note () : VersionedEntityBase()

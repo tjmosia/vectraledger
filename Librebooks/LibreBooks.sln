@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.7.11903.348 stable
+VisualStudioVersion = 18.7.11903.348
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Librebooks", "Librebooks.csproj", "{A44FA4F9-E783-40E1-928D-A107B1226F7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VectraBooks", "VectraBooks.csproj", "{A44FA4F9-E783-40E1-928D-A107B1226F7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

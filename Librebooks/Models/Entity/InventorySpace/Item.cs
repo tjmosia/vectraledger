@@ -1,12 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Core.Constants;
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.AccountingSpace;
-using Librebooks.Models.Entity.CompanySpace;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.InventorySpace;
+using VectraBooks.Core.Constants;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.AccountingSpace;
+using VectraBooks.Models.Entity.CompanySpace;
+
+namespace VectraBooks.Models.Entity.InventorySpace;
 
 [Table(nameof(Item))]
 public class Item : VersionedEntityBase
@@ -65,12 +66,6 @@ public class Item : VersionedEntityBase
 					.IsRequired()
 				.OnDelete(DeleteBehavior.Cascade);
 
-			options.HasMany(p => p.StockAdjustments)
-				.WithOne(p => p.Item)
-				.HasForeignKey(p => p.ItemId)
-					.IsRequired()
-				.OnDelete(DeleteBehavior.Cascade);
-
 			options.HasMany(p => p.PriceHistory)
 				.WithOne(p => p.Item)
 				.HasForeignKey(p => p.ItemId)
@@ -92,12 +87,6 @@ public class Item : VersionedEntityBase
 			options.HasOne(p => p.DebitLedgerAccount)
 				.WithOne()
 				.HasForeignKey<Item>(p => p.DebitLedgerAccountId)
-				.IsRequired()
-				.OnDelete(DeleteBehavior.Restrict);
-
-			options.HasOne(p => p.InventoryLedgerAccount)
-				.WithOne()
-				.HasForeignKey<Item>(p => p.InventoryLedgerAccountId)
 				.IsRequired()
 				.OnDelete(DeleteBehavior.Restrict);
 		});

@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Extensions.Models;
-using Librebooks.Models.Entity.SupplierSpace;
+using VectraBooks.Extensions.Models;
+using VectraBooks.Models.Entity.SupplierSpace;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.PurchasesSpace
+namespace VectraBooks.Models.Entity.PurchasesSpace
 {
     [Table(nameof(DocumentSupplierDetail))]
     public class DocumentSupplierDetail () : VersionedEntityBase()

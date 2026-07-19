@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using FluentValidation.Results;
 
-namespace Librebooks.Areas.Identity.Models.Account.Models;
+namespace VectraBooks.Areas.Identity.Models.Account.Models;
 
 public class UpdatePersonalInfoModel
 {

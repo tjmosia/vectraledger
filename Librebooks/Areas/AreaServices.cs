@@ -1,14 +1,14 @@
-﻿using Librebooks.Areas.Accounting.Providers;
-using Librebooks.Areas.Companies.Services;
-using Librebooks.Areas.Inventory.Providers;
-using Librebooks.Areas.Systems.Providers;
+﻿using VectraBooks.Areas.Accounting.Providers;
+using VectraBooks.Areas.Companies.Services;
+using VectraBooks.Areas.Inventory.Providers;
+using VectraBooks.Areas.Systems.Providers;
 
 
-//using Librebooks.Areas.Accounting.Services;
-//using Librebooks.Areas.Customers.Services;
-using Librebooks.Core.EFCore;
+//using VectraBooks.Areas.Accounting.Services;
+//using VectraBooks.Areas.Customers.Services;
+using VectraBooks.Core.EFCore;
 
-namespace Librebooks.Areas;
+namespace VectraBooks.Areas;
 
 public static class AreaServices
 {

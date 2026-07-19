@@ -1,46 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\",
+  "WorkspaceRootPath": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\inventorytransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\inventorytransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|c:\\users\\tjmos\\source\\repos\\vectraledger\\librebooks\\models\\entity\\salesspace\\salesdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|solutionrelative:models\\entity\\salesspace\\salesdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\goodsissueline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\goodsissueline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|c:\\users\\tjmos\\source\\repos\\vectraledger\\librebooks\\models\\entity\\salesspace\\salesdocumentline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|solutionrelative:models\\entity\\salesspace\\salesdocumentline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\goodsreceiptline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\goodsreceiptline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|c:\\users\\tjmos\\source\\repos\\vectraledger\\librebooks\\models\\entity\\salesspace\\salesdeliveryinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|solutionrelative:models\\entity\\salesspace\\salesdeliveryinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\goodsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\goodsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|c:\\users\\tjmos\\source\\repos\\vectraledger\\librebooks\\models\\entity\\salesspace\\salesinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|solutionrelative:models\\entity\\salesspace\\salesinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\inventoryrevaluationline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\inventoryrevaluationline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|c:\\users\\tjmos\\source\\repos\\vectraledger\\librebooks\\models\\entity\\salesspace\\salesdelivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|solutionrelative:models\\entity\\salesspace\\salesdelivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\inventoryadjustment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\inventoryadjustment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|c:\\users\\tjmos\\source\\repos\\vectraledger\\librebooks\\models\\entity\\inventoryspace\\goodsissue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|solutionrelative:models\\entity\\inventoryspace\\goodsissue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\inventoryrevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\inventoryrevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|c:\\users\\tjmos\\source\\repos\\vectraledger\\librebooks\\models\\entity\\inventoryspace\\goodsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|solutionrelative:models\\entity\\inventoryspace\\goodsreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\inventoryadjustmentline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\inventoryadjustmentline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|c:\\users\\tjmos\\source\\repos\\vectraledger\\librebooks\\models\\entity\\accountingspace\\postingrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|solutionrelative:models\\entity\\accountingspace\\postingrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|c:\\users\\tjmos\\source\\repos\\vectraledger\\librebooks\\models\\entity\\accountingspace\\postingrulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|solutionrelative:models\\entity\\accountingspace\\postingrulegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|c:\\users\\tjmos\\github\\librebooks\\librebooks\\models\\entity\\inventoryspace\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|Librebooks.csproj|solutionrelative:models\\entity\\inventoryspace\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|c:\\users\\tjmos\\source\\repos\\vectraledger\\librebooks\\models\\entity\\inventoryspace\\inventoryrevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|solutionrelative:models\\entity\\inventoryspace\\inventoryrevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|c:\\users\\tjmos\\source\\repos\\vectraledger\\librebooks\\vectrabooks.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A44FA4F9-E783-40E1-928D-A107B1226F7A}|VectraBooks.csproj|solutionrelative:vectrabooks.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,73 +54,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InventoryTransfer.cs",
-              "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\InventoryTransfer.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\InventoryTransfer.cs",
-              "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\InventoryTransfer.cs",
-              "RelativeToolTip": "Models\\Entity\\InventorySpace\\InventoryTransfer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T22:24:40.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GoodsIssueLine.cs",
-              "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsIssueLine.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\GoodsIssueLine.cs",
-              "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsIssueLine.cs",
-              "RelativeToolTip": "Models\\Entity\\InventorySpace\\GoodsIssueLine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T22:17:30.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GoodsReceiptLine.cs",
-              "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsReceiptLine.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\GoodsReceiptLine.cs",
-              "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsReceiptLine.cs",
-              "RelativeToolTip": "Models\\Entity\\InventorySpace\\GoodsReceiptLine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T22:14:41.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GoodsReceipt.cs",
-              "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsReceipt.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\GoodsReceipt.cs",
-              "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsReceipt.cs",
-              "RelativeToolTip": "Models\\Entity\\InventorySpace\\GoodsReceipt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T22:11:46.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InventoryAdjustmentLine.cs",
-              "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\InventoryAdjustmentLine.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\InventoryAdjustmentLine.cs",
-              "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\InventoryAdjustmentLine.cs",
-              "RelativeToolTip": "Models\\Entity\\InventorySpace\\InventoryAdjustmentLine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T22:04:30.735Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -131,67 +70,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InventoryRevaluationLine.cs",
-              "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\InventoryRevaluationLine.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\InventoryRevaluationLine.cs",
-              "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\InventoryRevaluationLine.cs",
-              "RelativeToolTip": "Models\\Entity\\InventorySpace\\InventoryRevaluationLine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SalesDocument.cs",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\SalesSpace\\SalesDocument.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesDocument.cs",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\SalesSpace\\SalesDocument.cs",
+              "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesDocument.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T21:49:21.016Z",
+              "WhenOpened": "2026-07-19T19:46:52.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InventoryRevaluation.cs",
-              "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\InventoryRevaluation.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\InventoryRevaluation.cs",
-              "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\InventoryRevaluation.cs",
-              "RelativeToolTip": "Models\\Entity\\InventorySpace\\InventoryRevaluation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SalesDocumentLine.cs",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\SalesSpace\\SalesDocumentLine.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesDocumentLine.cs",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\SalesSpace\\SalesDocumentLine.cs",
+              "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesDocumentLine.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T21:43:56.499Z",
+              "WhenOpened": "2026-07-19T19:46:29.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalesDeliveryInvoice.cs",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\SalesSpace\\SalesDeliveryInvoice.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesDeliveryInvoice.cs",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\SalesSpace\\SalesDeliveryInvoice.cs",
+              "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesDeliveryInvoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T19:41:26.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalesInvoice.cs",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\SalesSpace\\SalesInvoice.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesInvoice.cs",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\SalesSpace\\SalesInvoice.cs",
+              "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesInvoice.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T19:30:33.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SalesDelivery.cs",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\SalesSpace\\SalesDelivery.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\SalesSpace\\SalesDelivery.cs",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\SalesSpace\\SalesDelivery.cs",
+              "RelativeToolTip": "Models\\Entity\\SalesSpace\\SalesDelivery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T19:30:28.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "InventoryAdjustment.cs",
-              "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\InventoryAdjustment.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\InventoryAdjustment.cs",
-              "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\InventoryAdjustment.cs",
-              "RelativeToolTip": "Models\\Entity\\InventorySpace\\InventoryAdjustment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Title": "GoodsIssue.cs",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsIssue.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\GoodsIssue.cs",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsIssue.cs",
+              "RelativeToolTip": "Models\\Entity\\InventorySpace\\GoodsIssue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T21:31:47.148Z",
+              "WhenOpened": "2026-07-19T19:29:21.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\Item.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\Item.cs",
-              "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\Item.cs",
-              "RelativeToolTip": "Models\\Entity\\InventorySpace\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "GoodsReceipt.cs",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsReceipt.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\GoodsReceipt.cs",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\InventorySpace\\GoodsReceipt.cs",
+              "RelativeToolTip": "Models\\Entity\\InventorySpace\\GoodsReceipt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T21:15:16.818Z",
+              "WhenOpened": "2026-07-19T19:28:38.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\Inventory.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\Inventory.cs",
-              "ToolTip": "C:\\Users\\TJmos\\github\\librebooks\\Librebooks\\Models\\Entity\\InventorySpace\\Inventory.cs",
-              "RelativeToolTip": "Models\\Entity\\InventorySpace\\Inventory.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
+              "Title": "PostingRuleGroup.cs",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\AccountingSpace\\PostingRuleGroup.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\AccountingSpace\\PostingRuleGroup.cs",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\AccountingSpace\\PostingRuleGroup.cs",
+              "RelativeToolTip": "Models\\Entity\\AccountingSpace\\PostingRuleGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T21:15:05.956Z",
+              "WhenOpened": "2026-07-19T19:27:58.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PostingRule.cs",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\AccountingSpace\\PostingRule.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\AccountingSpace\\PostingRule.cs",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\AccountingSpace\\PostingRule.cs",
+              "RelativeToolTip": "Models\\Entity\\AccountingSpace\\PostingRule.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T19:24:57.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InventoryRevaluation.cs",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\InventorySpace\\InventoryRevaluation.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\InventorySpace\\InventoryRevaluation.cs",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\Models\\Entity\\InventorySpace\\InventoryRevaluation.cs",
+              "RelativeToolTip": "Models\\Entity\\InventorySpace\\InventoryRevaluation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T18:59:00.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VectraBooks",
+              "DocumentMoniker": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\VectraBooks.csproj",
+              "RelativeDocumentMoniker": "VectraBooks.csproj",
+              "ToolTip": "C:\\Users\\TJmos\\source\\repos\\vectraledger\\Librebooks\\VectraBooks.csproj",
+              "RelativeToolTip": "VectraBooks.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-19T18:58:31.878Z",
               "EditorCaption": ""
             }
           ]

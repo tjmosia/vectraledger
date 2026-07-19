@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Librebooks.Models.Entity.GeneralSpace;
+using VectraBooks.Models.Entity.GeneralSpace;
 using Microsoft.EntityFrameworkCore;
 
-namespace Librebooks.Models.Entity.SupplierSpace;
+namespace VectraBooks.Models.Entity.SupplierSpace;
 
 [Table(nameof(SupplierNote))]
 public class SupplierNote

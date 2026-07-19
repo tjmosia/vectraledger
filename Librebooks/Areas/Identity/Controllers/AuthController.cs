@@ -1,21 +1,21 @@
 ﻿using System.Security.Claims;
-using Librebooks.Areas.Companies.Services;
-using Librebooks.Areas.Identity.Data;
-using Librebooks.Areas.Identity.Models;
-using Librebooks.Areas.Identity.Models.Authentication.Models;
-using Librebooks.Areas.Identity.Services;
-using Librebooks.Core.Identity;
-using Librebooks.Core.Operations;
-using Librebooks.Data;
-using Librebooks.Extensions.Mvc;
-using Librebooks.Models.Entity.IdentitySpace;
-using Librebooks.Providers;
-using Librebooks.Providers.Managers;
+using VectraBooks.Areas.Companies.Services;
+using VectraBooks.Areas.Identity.Data;
+using VectraBooks.Areas.Identity.Models;
+using VectraBooks.Areas.Identity.Models.Authentication.Models;
+using VectraBooks.Areas.Identity.Services;
+using VectraBooks.Core.Identity;
+using VectraBooks.Core.Operations;
+using VectraBooks.Data;
+using VectraBooks.Extensions.Mvc;
+using VectraBooks.Models.Entity.IdentitySpace;
+using VectraBooks.Providers;
+using VectraBooks.Providers.Managers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 
-namespace Librebooks.Areas.Identity.Controllers;
+namespace VectraBooks.Areas.Identity.Controllers;
 
 [Route("[controller]")]
 [ApiController]

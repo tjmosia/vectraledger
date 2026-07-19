@@ -1,6 +1,6 @@
-﻿using Librebooks.Core.Operations;
+﻿using VectraBooks.Core.Operations;
 
-namespace Librebooks.Core.EFCore
+namespace VectraBooks.Core.EFCore
 {
 	public class DbErrorDescriber
 	{

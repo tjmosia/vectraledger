@@ -1,6 +1,6 @@
-﻿using Librebooks.Models.Entity.SystemSpace;
+﻿using VectraBooks.Models.Entity.SystemSpace;
 
-namespace Librebooks.Areas.Systems.Data;
+namespace VectraBooks.Areas.Systems.Data;
 
 public class CountryCountryData (Country country)
 {

@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using Librebooks.Extensions.Models;
+using VectraBooks.Extensions.Models;
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 
-namespace Librebooks.Models.Entity.DocumentSpace;
+namespace VectraBooks.Models.Entity.DocumentSpace;
 
 [Table(nameof(DocumentType))]
 [Index(nameof(Name), IsUnique = true)]

@@ -1,12 +1,12 @@
 ﻿using System.Security.Claims;
-using Librebooks.Areas.Identity.Models.Authorization;
-using Librebooks.Areas.Identity.Services;
-using Librebooks.Extensions.Mvc;
-using Librebooks.Models.Entity.IdentitySpace;
+using VectraBooks.Areas.Identity.Models.Authorization;
+using VectraBooks.Areas.Identity.Services;
+using VectraBooks.Extensions.Mvc;
+using VectraBooks.Models.Entity.IdentitySpace;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Librebooks.Areas.Identity.Controllers;
+namespace VectraBooks.Areas.Identity.Controllers;
 
 [Route("authorize/[controller]")]
 [Authorize, ApiController]

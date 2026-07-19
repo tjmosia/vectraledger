@@ -1,15 +1,15 @@
 ﻿using System.Security.Claims;
-using Librebooks.Areas.Identity.Models.Account.Models;
-using Librebooks.Areas.Identity.Services;
-using Librebooks.Core.Operations;
-using Librebooks.Extensions.Mvc;
-using Librebooks.Models.Entity.IdentitySpace;
+using VectraBooks.Areas.Identity.Models.Account.Models;
+using VectraBooks.Areas.Identity.Services;
+using VectraBooks.Core.Operations;
+using VectraBooks.Extensions.Mvc;
+using VectraBooks.Models.Entity.IdentitySpace;
 
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 
-namespace Librebooks.Areas.Identity.Controllers;
+namespace VectraBooks.Areas.Identity.Controllers;
 
 [Authorize]
 [Route("account")]

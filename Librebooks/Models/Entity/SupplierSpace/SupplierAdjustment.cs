@@ -1,13 +1,13 @@
-﻿using Librebooks.Core.Constants;
-using Librebooks.Models.Entity.AccountingSpace;
-using Librebooks.Models.Entity.CompanySpace;
-using Librebooks.Models.Entity.CustomerSpace;
-using Librebooks.Models.Entity.SystemSpace;
+﻿using VectraBooks.Core.Constants;
+using VectraBooks.Models.Entity.AccountingSpace;
+using VectraBooks.Models.Entity.CompanySpace;
+using VectraBooks.Models.Entity.CustomerSpace;
+using VectraBooks.Models.Entity.SystemSpace;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Librebooks.Models.Entity.SupplierSpace
+namespace VectraBooks.Models.Entity.SupplierSpace
 {
 	[Table(nameof(SupplierAdjustment))]
 	public class SupplierAdjustment
